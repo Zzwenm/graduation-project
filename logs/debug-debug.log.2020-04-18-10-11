@@ -1,0 +1,304 @@
+2020-04-18 10:11:01 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:01 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:01 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 2, delay 2ms
+2020-04-18 10:11:01 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x11146965, [id: 0x368f5162] (inactive), chid=0x2] channelUnregistered()
+2020-04-18 10:11:01 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:01 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:01 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:01 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xc1352c86, [id: 0x9fc57d3c] (inactive), chid=0x3] channelRegistered()
+2020-04-18 10:11:03 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:03 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:03 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 3, delay 4ms
+2020-04-18 10:11:03 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xc1352c86, [id: 0x9fc57d3c] (inactive), chid=0x3] channelUnregistered()
+2020-04-18 10:11:03 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:03 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:03 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:03 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x9d81e8ab, [id: 0x6dd168f8] (inactive), chid=0x4] channelRegistered()
+2020-04-18 10:11:05 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:05 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:05 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 4, delay 8ms
+2020-04-18 10:11:05 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x9d81e8ab, [id: 0x6dd168f8] (inactive), chid=0x4] channelUnregistered()
+2020-04-18 10:11:06 [INFO ](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:06 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:06 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:06 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xde3ab55b, [id: 0xe839be68] (inactive), chid=0x5] channelRegistered()
+2020-04-18 10:11:08 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:08 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:08 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 5, delay 16ms
+2020-04-18 10:11:08 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xde3ab55b, [id: 0xe839be68] (inactive), chid=0x5] channelUnregistered()
+2020-04-18 10:11:08 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:08 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:08 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:08 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x1658e9b2, [id: 0x514ed1e2] (inactive), chid=0x6] channelRegistered()
+2020-04-18 10:11:10 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:10 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:10 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 6, delay 32ms
+2020-04-18 10:11:10 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x1658e9b2, [id: 0x514ed1e2] (inactive), chid=0x6] channelUnregistered()
+2020-04-18 10:11:10 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:10 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:10 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:10 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x023c9245, [id: 0x4bc0332f] (inactive), chid=0x7] channelRegistered()
+2020-04-18 10:11:12 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:12 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:12 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 7, delay 64ms
+2020-04-18 10:11:12 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x023c9245, [id: 0x4bc0332f] (inactive), chid=0x7] channelUnregistered()
+2020-04-18 10:11:12 [INFO ](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:12 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:12 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:12 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x7f9914de, [id: 0xa9091df0] (inactive), chid=0x8] channelRegistered()
+2020-04-18 10:11:14 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:14 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:14 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 8, delay 128ms
+2020-04-18 10:11:14 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x7f9914de, [id: 0xa9091df0] (inactive), chid=0x8] channelUnregistered()
+2020-04-18 10:11:14 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:14 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:14 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:14 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xb8f82ac2, [id: 0x2150caa1] (inactive), chid=0x9] channelRegistered()
+2020-04-18 10:11:16 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:16 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:16 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 9, delay 256ms
+2020-04-18 10:11:16 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xb8f82ac2, [id: 0x2150caa1] (inactive), chid=0x9] channelUnregistered()
+2020-04-18 10:11:16 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:16 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:16 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:16 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xeb5fad8f, [id: 0x75b17098] (inactive), chid=0xa] channelRegistered()
+2020-04-18 10:11:18 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:18 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:18 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 10, delay 512ms
+2020-04-18 10:11:18 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xeb5fad8f, [id: 0x75b17098] (inactive), chid=0xa] channelUnregistered()
+2020-04-18 10:11:19 [INFO ](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:19 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:19 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:19 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x00a4019e, [id: 0x4fd03795] (inactive), chid=0xb] channelRegistered()
+2020-04-18 10:11:21 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:21 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:21 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 11, delay 1024ms
+2020-04-18 10:11:21 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x00a4019e, [id: 0x4fd03795] (inactive), chid=0xb] channelUnregistered()
+2020-04-18 10:11:22 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:22 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:22 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:22 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x1b9c2033, [id: 0x00fd7e2f] (inactive), chid=0xc] channelRegistered()
+2020-04-18 10:11:24 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:24 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:24 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 12, delay 2048ms
+2020-04-18 10:11:24 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x1b9c2033, [id: 0x00fd7e2f] (inactive), chid=0xc] channelUnregistered()
+2020-04-18 10:11:26 [INFO ](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:26 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:26 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:26 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x79697108, [id: 0x94faf4a3] (inactive), chid=0xd] channelRegistered()
+2020-04-18 10:11:28 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:28 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:28 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 13, delay 4096ms
+2020-04-18 10:11:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x79697108, [id: 0x94faf4a3] (inactive), chid=0xd] channelUnregistered()
+2020-04-18 10:11:32 [INFO ](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:32 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:32 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:32 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x1928b3bc, [id: 0x3dd51b6b] (inactive), chid=0xe] channelRegistered()
+2020-04-18 10:11:34 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:34 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:34 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 14, delay 8192ms
+2020-04-18 10:11:34 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x1928b3bc, [id: 0x3dd51b6b] (inactive), chid=0xe] channelUnregistered()
+2020-04-18 10:11:43 [INFO ](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost:6379
+2020-04-18 10:11:43 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:11:43 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:11:43 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x0c3c545b, [id: 0x1e2066f3] (inactive), chid=0xf] channelRegistered()
+2020-04-18 10:11:45 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:11:45 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:11:45 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 15, delay 16384ms
+2020-04-18 10:11:45 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x0c3c545b, [id: 0x1e2066f3] (inactive), chid=0xf] channelUnregistered()

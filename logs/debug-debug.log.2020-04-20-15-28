@@ -1,0 +1,1215 @@
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:02:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:02:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:02:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:02 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:02 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:02 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:02 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:02 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:02 [DEBUG](SlotManagerImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received slot report from instance 5e6dcd2ee70d08a15c0830be5399f92c: SlotReport{slotsStatus=[SlotStatus{slotID=6c80136c-7120-4add-8556-cfb095946bec_0, resourceProfile=ResourceProfile{managedMemory=128.000mb (134217728 bytes), networkMemory=64.000mb (67108864 bytes)}, allocationID=b8857bc849ea7943f513e3839adb10fd, jobID=0dfb80efa1809fb0bded5a460a627391}]}.
+2020-04-20 15:28:02 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:03:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:02 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:02 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:02 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+========================
+2020-04-20 15:28:02 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:03 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:04:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:04 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:05 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:05 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:05 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:05 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:05 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:05 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:05 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:05 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:06 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:06 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:07 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:07 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:07 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:07 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:07 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:07 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:07 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:07 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:08 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:08 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:08 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:05:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:08 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:08 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:08 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:09 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:09 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:09 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:09 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:09 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:09 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:09 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:09 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:06:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:12 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:12 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:12 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:12 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:12 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:12 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:12 [DEBUG](SlotManagerImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received slot report from instance 5e6dcd2ee70d08a15c0830be5399f92c: SlotReport{slotsStatus=[SlotStatus{slotID=6c80136c-7120-4add-8556-cfb095946bec_0, resourceProfile=ResourceProfile{managedMemory=128.000mb (134217728 bytes), networkMemory=64.000mb (67108864 bytes)}, allocationID=b8857bc849ea7943f513e3839adb10fd, jobID=0dfb80efa1809fb0bded5a460a627391}]}.
+2020-04-20 15:28:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:12 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:12 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:12 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:13 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:13 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:13 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+========================
+2020-04-20 15:28:13 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:13 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:13 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:14 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:14 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:14 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:14 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:15 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:15 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:15 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:15 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:15 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:07:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:15 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:15 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:15 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:16 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:16 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:16 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:16 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:16 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:16 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:17 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:17 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:17 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:17 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:17 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:17 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:18 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:18 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:18 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:18 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:18 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:18 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:19 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:19 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:20 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:08:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:20 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:20 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:20 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:20 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:20 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:21 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:21 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:21 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:21 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:21 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:21 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:22 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:22 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:22 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:22 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:22 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:22 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:22 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:22 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:22 [DEBUG](SlotManagerImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received slot report from instance 5e6dcd2ee70d08a15c0830be5399f92c: SlotReport{slotsStatus=[SlotStatus{slotID=6c80136c-7120-4add-8556-cfb095946bec_0, resourceProfile=ResourceProfile{managedMemory=128.000mb (134217728 bytes), networkMemory=64.000mb (67108864 bytes)}, allocationID=b8857bc849ea7943f513e3839adb10fd, jobID=0dfb80efa1809fb0bded5a460a627391}]}.
+2020-04-20 15:28:22 [DEBUG](SlotPoolImpl                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Slot Pool Status:
+	status: connected to akka://flink/user/resourcemanager
+	registered TaskManagers: [6c80136c-7120-4add-8556-cfb095946bec]
+	available slots: []
+	allocated slots: [[AllocatedSlot b8857bc849ea7943f513e3839adb10fd @ 6c80136c-7120-4add-8556-cfb095946bec @ 127.0.0.1 (dataPort=-1) - 0]]
+	pending requests: []
+	}
+
+2020-04-20 15:28:22 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:22 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:22 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:22 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:22 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:22 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:22 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:09:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:23 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:24 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:24 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:24 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:24 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:24 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:24 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:25 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:25 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:26 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:26 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:26 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:26 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:26 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:26 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:26 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:26 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:27 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:27 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:27 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:27 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:28 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:10:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:28 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:28 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:28 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:28 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:28 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:28 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:28 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:29 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:29 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:30 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:30 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:30 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:30 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:30 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:30 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:31 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:31 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:31 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:31 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:31 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:31 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:31 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:31 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:32 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:32 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:32 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:32 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:32 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:32 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:32 [DEBUG](SlotManagerImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received slot report from instance 5e6dcd2ee70d08a15c0830be5399f92c: SlotReport{slotsStatus=[SlotStatus{slotID=6c80136c-7120-4add-8556-cfb095946bec_0, resourceProfile=ResourceProfile{managedMemory=128.000mb (134217728 bytes), networkMemory=64.000mb (67108864 bytes)}, allocationID=b8857bc849ea7943f513e3839adb10fd, jobID=0dfb80efa1809fb0bded5a460a627391}]}.
+2020-04-20 15:28:32 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:32 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:32 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:33 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:11:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:33 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:33 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:33 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:34 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:34 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:34 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:34 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:34 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:34 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:34 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:34 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:35 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:35 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:35 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:35 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:36 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:36 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:36 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:36 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:36 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:36 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:37 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:37 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:37 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:12:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:37 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:37 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:37 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:37 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:37 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:38 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:38 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:38 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:38 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:39 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:39 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:40 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:40 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:40 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:40 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:40 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:40 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:41 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:41 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:41 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:41 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:41 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:41 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:42 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:13:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:42 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:42 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:42 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:42 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:42 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:42 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:42 [DEBUG](SlotManagerImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received slot report from instance 5e6dcd2ee70d08a15c0830be5399f92c: SlotReport{slotsStatus=[SlotStatus{slotID=6c80136c-7120-4add-8556-cfb095946bec_0, resourceProfile=ResourceProfile{managedMemory=128.000mb (134217728 bytes), networkMemory=64.000mb (67108864 bytes)}, allocationID=b8857bc849ea7943f513e3839adb10fd, jobID=0dfb80efa1809fb0bded5a460a627391}]}.
+2020-04-20 15:28:42 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:42 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:42 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:42 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:42 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:42 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:43 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:43 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:43 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:43 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:43 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:43 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:43 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:43 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:44 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:44 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:44 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:44 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:44 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:44 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:46 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:46 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:46 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:46 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:46 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:46 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:47 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:14:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:47 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:48 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:48 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:48 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:48 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:48 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:48 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:49 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:49 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:49 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:20.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:49 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:50 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:25.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:50 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:50 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:30.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:50 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:50 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:35.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:50 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:51 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:40.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+========================
+2020-04-20 15:28:51 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:52 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:45.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+No5: 商品id = 4590199 浏览量 = 1
+========================
+2020-04-20 15:28:52 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:52 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:50.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+No5: 商品id = 4590199 浏览量 = 1
+========================
+2020-04-20 15:28:52 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:52 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:52 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:52 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:52 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from e451af4b8bcfa7d30a34cde530104f12.
+2020-04-20 15:28:52 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:52 [DEBUG](SlotManagerImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received slot report from instance 5e6dcd2ee70d08a15c0830be5399f92c: SlotReport{slotsStatus=[SlotStatus{slotID=6c80136c-7120-4add-8556-cfb095946bec_0, resourceProfile=ResourceProfile{managedMemory=128.000mb (134217728 bytes), networkMemory=64.000mb (67108864 bytes)}, allocationID=b8857bc849ea7943f513e3839adb10fd, jobID=0dfb80efa1809fb0bded5a460a627391}]}.
+2020-04-20 15:28:52 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:52 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 15:28:52 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from 6ac7ac47721d1d07ff0e7b32434de6ec.
+2020-04-20 15:28:52 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 6c80136c-7120-4add-8556-cfb095946bec.
+2020-04-20 15:28:53 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:15:55.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+No5: 商品id = 4590199 浏览量 = 1
+========================
+2020-04-20 15:28:53 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:53 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:00.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+No5: 商品id = 4590199 浏览量 = 1
+========================
+2020-04-20 15:28:53 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:54 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:05.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+No5: 商品id = 4590199 浏览量 = 1
+========================
+2020-04-20 15:28:54 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:54 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:10.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+No5: 商品id = 4590199 浏览量 = 1
+========================
+2020-04-20 15:28:54 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:55 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:15.0
+No1: 商品id = 1385281 浏览量 = 1
+No2: 商品id = 5120034 浏览量 = 1
+No3: 商品id = 1953489 浏览量 = 1
+No4: 商品id = 408860 浏览量 = 1
+No5: 商品id = 4590199 浏览量 = 1
+No6: 商品id = 1976168 浏览量 = 1
+========================
+2020-04-20 15:28:55 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:55 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:20.0
+No1: 商品id = 4590199 浏览量 = 2
+No2: 商品id = 1385281 浏览量 = 1
+No3: 商品id = 5120034 浏览量 = 1
+No4: 商品id = 1953489 浏览量 = 1
+No5: 商品id = 408860 浏览量 = 1
+No6: 商品id = 1976168 浏览量 = 1
+========================
+2020-04-20 15:28:55 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:55 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:25.0
+No1: 商品id = 4590199 浏览量 = 2
+No2: 商品id = 1385281 浏览量 = 1
+No3: 商品id = 5120034 浏览量 = 1
+No4: 商品id = 1953489 浏览量 = 1
+No5: 商品id = 408860 浏览量 = 1
+No6: 商品id = 1976168 浏览量 = 1
+========================
+2020-04-20 15:28:55 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:56 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:30.0
+No1: 商品id = 4590199 浏览量 = 2
+No2: 商品id = 1385281 浏览量 = 1
+No3: 商品id = 5120034 浏览量 = 1
+No4: 商品id = 1953489 浏览量 = 1
+No5: 商品id = 408860 浏览量 = 1
+No6: 商品id = 1976168 浏览量 = 1
+========================
+2020-04-20 15:28:56 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:57 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:35.0
+No1: 商品id = 4590199 浏览量 = 2
+No2: 商品id = 1385281 浏览量 = 1
+No3: 商品id = 5120034 浏览量 = 1
+No4: 商品id = 1953489 浏览量 = 1
+No5: 商品id = 408860 浏览量 = 1
+No6: 商品id = 1976168 浏览量 = 1
+========================
+2020-04-20 15:28:57 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:58 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:40.0
+No1: 商品id = 4590199 浏览量 = 2
+No2: 商品id = 1385281 浏览量 = 1
+No3: 商品id = 5120034 浏览量 = 1
+No4: 商品id = 1953489 浏览量 = 1
+No5: 商品id = 408860 浏览量 = 1
+No6: 商品id = 1976168 浏览量 = 1
+========================
+2020-04-20 15:28:58 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:58 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:45.0
+No1: 商品id = 4590199 浏览量 = 2
+No2: 商品id = 1385281 浏览量 = 1
+No3: 商品id = 5120034 浏览量 = 1
+No4: 商品id = 1953489 浏览量 = 1
+No5: 商品id = 408860 浏览量 = 1
+No6: 商品id = 1976168 浏览量 = 1
+========================
+2020-04-20 15:28:58 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:59 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:50.0
+No1: 商品id = 4590199 浏览量 = 2
+No2: 商品id = 1385281 浏览量 = 1
+No3: 商品id = 5120034 浏览量 = 1
+No4: 商品id = 1953489 浏览量 = 1
+No5: 商品id = 408860 浏览量 = 1
+No6: 商品id = 1976168 浏览量 = 1
+========================
+2020-04-20 15:28:59 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca
+2020-04-20 15:28:59 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 01:16:55.0
+No1: 商品id = 4590199 浏览量 = 2
+No2: 商品id = 1385281 浏览量 = 1
+No3: 商品id = 5120034 浏览量 = 1
+No4: 商品id = 1953489 浏览量 = 1
+No5: 商品id = 408860 浏览量 = 1
+No6: 商品id = 1976168 浏览量 = 1
+========================
+2020-04-20 15:28:59 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@5047ecca

@@ -1,0 +1,2 @@
+2020-04-18 14:21:55 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/recommend?userId=1", parameters={masked}
+2020-04-18 14:21:55 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.RecommendController#recommendByUserId(String, Model)

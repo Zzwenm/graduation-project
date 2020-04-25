@@ -1,0 +1,22 @@
+2020-04-23 11:14:49 [DEBUG](AnnotationConfigServletWebServerApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@492691d7, started on Thu Apr 23 10:17:52 GMT+08:00 2020
+2020-04-23 11:14:49 [DEBUG](PropertySourcesPropertyResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-04-23 11:14:49 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopping beans in phase 2147483547
+2020-04-23 11:14:49 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry' completed its stop procedure
+2020-04-23 11:14:49 [DEBUG](RedisMessageListenerContainer ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopped RedisMessageListenerContainer
+2020-04-23 11:14:49 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2020-04-23 11:14:49 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans
+2020-04-23 11:14:49 [INFO ](ThreadPoolTaskExecutor        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-23 11:14:49 [INFO ](DruidDataSource               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] {dataSource-1} closed
+2020-04-23 11:14:49 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-23 11:14:49 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa73678f2, /192.168.0.101:61045 -> aliyun/39.105.201.221:6379, epid=0x1] closeAsync()
+2020-04-23 11:14:49 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa73678f2, /192.168.0.101:61045 -> aliyun/39.105.201.221:6379, chid=0x4] channelInactive()
+2020-04-23 11:14:49 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa73678f2, /192.168.0.101:61045 -> aliyun/39.105.201.221:6379, epid=0x1] deactivating endpoint handler
+2020-04-23 11:14:49 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa73678f2, /192.168.0.101:61045 -> aliyun/39.105.201.221:6379, chid=0x4] channelInactive() done
+2020-04-23 11:14:49 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa73678f2, /192.168.0.101:61045 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] channelInactive()
+2020-04-23 11:14:49 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa73678f2, /192.168.0.101:61045 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] Reconnect scheduling disabled
+2020-04-23 11:14:49 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa73678f2, /192.168.0.101:61045 -> aliyun/39.105.201.221:6379, chid=0x4] channelUnregistered()
+2020-04-23 11:14:49 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (100, 100, MILLISECONDS)
+2020-04-23 11:14:49 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Release executor io.netty.channel.nio.NioEventLoopGroup@3db6a965
+2020-04-23 11:14:49 [DEBUG](PoolThreadCache               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Freed 28 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-3
+2020-04-23 11:14:49 [DEBUG](PoolThreadCache               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Freed 9 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-2
+2020-04-23 11:14:49 [DEBUG](PoolThreadCache               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Freed 32 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1

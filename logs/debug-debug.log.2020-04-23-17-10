@@ -1,0 +1,34 @@
+2020-04-23 17:10:00 [DEBUG](Selector                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection with aliyun/39.105.201.221 disconnected
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.read(PlaintextTransportLayer.java:103)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:94)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:424)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:385)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:651)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:572)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:483)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:539)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:335)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:244)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 17:10:00 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Node 0 disconnected.
+2020-04-23 17:10:00 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 17:10:00 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initialize connection to node aliyun:9092 (id: 0 rack: null) for sending metadata request
+2020-04-23 17:10:00 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initiating connection to node aliyun:9092 (id: 0 rack: null) using address aliyun/39.105.201.221
+2020-04-23 17:10:00 [DEBUG](Selector                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Created socket with SO_RCVBUF = 32768, SO_SNDBUF = 131072, SO_TIMEOUT = 0 to node 0
+2020-04-23 17:10:00 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Completed connection to node 0. Fetching API versions.
+2020-04-23 17:10:00 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initiating API versions fetch from node 0.
+2020-04-23 17:10:00 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Recorded API versions for node 0: (Produce(0): 0 to 7 [usable: 7], Fetch(1): 0 to 10 [usable: 10], ListOffsets(2): 0 to 4 [usable: 4], Metadata(3): 0 to 7 [usable: 7], LeaderAndIsr(4): 0 to 1 [usable: 1], StopReplica(5): 0 [usable: 0], UpdateMetadata(6): 0 to 4 [usable: 4], ControlledShutdown(7): 0 to 1 [usable: 1], OffsetCommit(8): 0 to 6 [usable: 6], OffsetFetch(9): 0 to 5 [usable: 5], FindCoordinator(10): 0 to 2 [usable: 2], JoinGroup(11): 0 to 3 [usable: 3], Heartbeat(12): 0 to 2 [usable: 2], LeaveGroup(13): 0 to 2 [usable: 2], SyncGroup(14): 0 to 2 [usable: 2], DescribeGroups(15): 0 to 2 [usable: 2], ListGroups(16): 0 to 2 [usable: 2], SaslHandshake(17): 0 to 1 [usable: 1], ApiVersions(18): 0 to 2 [usable: 2], CreateTopics(19): 0 to 3 [usable: 3], DeleteTopics(20): 0 to 3 [usable: 3], DeleteRecords(21): 0 to 1 [usable: 1], InitProducerId(22): 0 to 1 [usable: 1], OffsetForLeaderEpoch(23): 0 to 2 [usable: 2], AddPartitionsToTxn(24): 0 to 1 [usable: 1], AddOffsetsToTxn(25): 0 to 1 [usable: 1], EndTxn(26): 0 to 1 [usable: 1], WriteTxnMarkers(27): 0 [usable: 0], TxnOffsetCommit(28): 0 to 2 [usable: 2], DescribeAcls(29): 0 to 1 [usable: 1], CreateAcls(30): 0 to 1 [usable: 1], DeleteAcls(31): 0 to 1 [usable: 1], DescribeConfigs(32): 0 to 2 [usable: 2], AlterConfigs(33): 0 to 1 [usable: 1], AlterReplicaLogDirs(34): 0 to 1 [usable: 1], DescribeLogDirs(35): 0 to 1 [usable: 1], SaslAuthenticate(36): 0 [usable: 0], CreatePartitions(37): 0 to 1 [usable: 1], CreateDelegationToken(38): 0 to 1 [usable: 1], RenewDelegationToken(39): 0 to 1 [usable: 1], ExpireDelegationToken(40): 0 to 1 [usable: 1], DescribeDelegationToken(41): 0 to 1 [usable: 1], DeleteGroups(42): 0 to 1 [usable: 1], ElectPreferredLeaders(43): UNSUPPORTED, IncrementalAlterConfigs(44): UNSUPPORTED)
+2020-04-23 17:10:00 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node aliyun:9092 (id: 0 rack: null)
+2020-04-23 17:10:00 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Using older server API v7 to send METADATA {topics=[],allow_auto_topic_creation=true} with correlation id 81 to node 0
+2020-04-23 17:10:00 [DEBUG](Metadata                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Updated cluster metadata updateVersion 28 to MetadataCache{cluster=Cluster(id = ywiXp-SQSUaWes-7n-R4dg, nodes = [aliyun:9092 (id: 0 rack: null)], partitions = [], controller = aliyun:9092 (id: 0 rack: null))}
+2020-04-23 17:10:04 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 50ms
+2020-04-23 17:10:17 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 50ms
+2020-04-23 17:10:31 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 341ms
+2020-04-23 17:10:44 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 50ms
+2020-04-23 17:10:57 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 49ms

@@ -1,0 +1,64 @@
+2020-04-18 13:20:19 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/recommend", parameters={}
+2020-04-18 13:20:19 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.RecommendController#recommendByUserId(String, Model)
+2020-04-18 13:20:19 [DEBUG](ServletInvocableHandlerMethod ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Could not resolve parameter [0] in public java.lang.String com.example.graduationproject.web.controller.RecommendController.recommendByUserId(java.lang.String,org.springframework.ui.Model) throws java.io.IOException: Required String parameter 'userId' is not present
+2020-04-18 13:20:19 [WARN ](DefaultHandlerExceptionResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userId' is not present]
+2020-04-18 13:20:19 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 400 BAD_REQUEST
+2020-04-18 13:20:19 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-18 13:20:19 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2020-04-18 13:20:19 [DEBUG](ContentNegotiatingViewResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-04-18 13:20:19 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 400
+2020-04-18 13:20:52 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/recommend?userId=1", parameters={masked}
+2020-04-18 13:20:52 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.RecommendController#recommendByUserId(String, Model)
+2020-04-18 13:20:52 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-18 13:20:52 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2020-04-18 13:20:52 [INFO ](EpollProvider                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Starting without optional epoll library
+2020-04-18 13:20:52 [INFO ](KqueueProvider                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Starting without optional kqueue library
+2020-04-18 13:20:52 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2020-04-18 13:20:52 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating executor io.netty.channel.nio.NioEventLoopGroup
+2020-04-18 13:20:52 [DEBUG](MultithreadEventLoopGroup     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.eventLoopThreads: 16
+2020-04-18 13:20:52 [DEBUG](NioEventLoop                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.noKeySetOptimization: false
+2020-04-18 13:20:52 [DEBUG](NioEventLoop                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 13:20:52 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Adding reference to io.netty.channel.nio.NioEventLoopGroup@32a29d3a, existing ref count 0
+2020-04-18 13:20:52 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 13:20:52 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379
+2020-04-18 13:20:52 [DEBUG](DefaultChannelId              ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.processId: 13576 (auto-detected)
+2020-04-18 13:20:52 [DEBUG](NetUtil                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Djava.net.preferIPv4Stack: false
+2020-04-18 13:20:52 [DEBUG](NetUtil                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Djava.net.preferIPv6Addresses: false
+2020-04-18 13:20:53 [DEBUG](NetUtil                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 13:20:53 [DEBUG](NetUtil                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 13:20:54 [DEBUG](DefaultChannelId              ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.machineId: 7c:b0:c2:ff:fe:e9:fe:6c (auto-detected)
+2020-04-18 13:20:54 [DEBUG](ByteBufUtil                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.allocator.type: pooled
+2020-04-18 13:20:54 [DEBUG](ByteBufUtil                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.threadLocalDirectBufferSize: 0
+2020-04-18 13:20:54 [DEBUG](ByteBufUtil                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 13:20:54 [DEBUG](Recycler                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-04-18 13:20:54 [DEBUG](Recycler                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-04-18 13:20:54 [DEBUG](Recycler                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.recycler.linkCapacity: 16
+2020-04-18 13:20:54 [DEBUG](Recycler                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.recycler.ratio: 8
+2020-04-18 13:20:54 [DEBUG](AbstractByteBuf               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.buffer.checkAccessible: true
+2020-04-18 13:20:54 [DEBUG](AbstractByteBuf               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.buffer.checkBounds: true
+2020-04-18 13:20:54 [DEBUG](ResourceLeakDetectorFactory   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7bd2a634
+2020-04-18 13:20:54 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa0aa2854, [id: 0xd653e934] (inactive), chid=0x1] channelRegistered()
+2020-04-18 13:20:56 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379: {}
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 13:20:56 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] close()
+2020-04-18 13:20:56 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-18 13:20:56 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [unknown, epid=0x1] closeAsync()
+2020-04-18 13:20:56 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa0aa2854, [id: 0xd653e934] (inactive), chid=0x1] channelUnregistered()
+2020-04-18 13:20:56 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+2020-04-18 13:20:56 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error?userId=1", parameters={masked}
+2020-04-18 13:20:56 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2020-04-18 13:20:56 [DEBUG](ContentNegotiatingViewResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-04-18 13:20:56 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500

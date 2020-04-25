@@ -1,0 +1,109 @@
+2020-04-23 14:41:03 [DEBUG](Selector                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection with /192.168.1.7 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:216)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:531)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:483)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:539)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:335)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:244)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 14:41:03 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Node -1 disconnected.
+2020-04-23 14:41:03 [WARN ](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection to node -1 (/192.168.1.7:9092) could not be established. Broker may not be available.
+2020-04-23 14:41:03 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:03 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:03 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:03 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initialize connection to node 192.168.1.7:9092 (id: -1 rack: null) for sending metadata request
+2020-04-23 14:41:04 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initiating connection to node 192.168.1.7:9092 (id: -1 rack: null) using address /192.168.1.7
+2020-04-23 14:41:25 [DEBUG](Selector                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection with /192.168.1.7 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:216)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:531)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:483)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:539)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:335)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:244)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 14:41:25 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Node -1 disconnected.
+2020-04-23 14:41:25 [WARN ](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection to node -1 (/192.168.1.7:9092) could not be established. Broker may not be available.
+2020-04-23 14:41:25 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:25 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:25 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:25 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:26 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:27 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:27 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initialize connection to node 192.168.1.7:9092 (id: -1 rack: null) for sending metadata request
+2020-04-23 14:41:27 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initiating connection to node 192.168.1.7:9092 (id: -1 rack: null) using address /192.168.1.7
+2020-04-23 14:41:48 [DEBUG](Selector                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection with /192.168.1.7 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:216)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:531)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:483)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:539)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:335)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:244)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Node -1 disconnected.
+2020-04-23 14:41:48 [WARN ](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection to node -1 (/192.168.1.7:9092) could not be established. Broker may not be available.
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initialize connection to node 192.168.1.7:9092 (id: -1 rack: null) for sending metadata request
+2020-04-23 14:41:48 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initiating connection to node 192.168.1.7:9092 (id: -1 rack: null) using address /192.168.1.7

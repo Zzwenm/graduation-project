@@ -1,0 +1,12 @@
+2020-04-18 13:19:51 [INFO ](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:19:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Detected StandardServletMultipartResolver
+2020-04-18 13:19:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-04-18 13:19:51 [INFO ](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed initialization in 11 ms
+2020-04-18 13:19:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user", parameters={}
+2020-04-18 13:19:51 [DEBUG](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-04-18 13:19:51 [DEBUG](ResourceHttpRequestHandler    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resource not found
+2020-04-18 13:19:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 404 NOT_FOUND
+2020-04-18 13:19:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-18 13:19:51 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2020-04-18 13:19:51 [DEBUG](ContentNegotiatingViewResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-04-18 13:19:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 404

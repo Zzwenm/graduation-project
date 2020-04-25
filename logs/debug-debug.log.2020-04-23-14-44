@@ -1,0 +1,179 @@
+2020-04-23 14:44:03 [INFO ](ProducerConfig                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ProducerConfig values: 
+	acks = 1
+	batch.size = 65536
+	bootstrap.servers = [192.168.1.7:9092]
+	buffer.memory = 524288
+	client.dns.lookup = default
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name bufferpool-wait-time
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name buffer-exhausted-records
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name errors
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name produce-throttle-time
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name connections-closed:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name connections-created:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name successful-authentication:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name successful-reauthentication:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name successful-authentication-no-reauth:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name failed-authentication:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name failed-reauthentication:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name reauthentication-latency:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name bytes-sent-received:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name bytes-sent:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name bytes-received:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name select-time:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name io-time:
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name batch-size
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name compression-rate
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name queue-time
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name request-time
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name records-per-request
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name record-retries
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name record-size
+2020-04-23 14:44:03 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name batch-split-rate
+2020-04-23 14:44:03 [DEBUG](Sender                        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Starting Kafka producer I/O thread.
+2020-04-23 14:44:03 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initialize connection to node 192.168.1.7:9092 (id: -1 rack: null) for sending metadata request
+2020-04-23 14:44:03 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initiating connection to node 192.168.1.7:9092 (id: -1 rack: null) using address /192.168.1.7
+2020-04-23 14:44:03 [INFO ](AppInfoParser                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Kafka version: 2.3.1
+2020-04-23 14:44:03 [INFO ](AppInfoParser                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Kafka commitId: 18a913733fb71c01
+2020-04-23 14:44:03 [INFO ](AppInfoParser                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Kafka startTimeMs: 1587624243790
+2020-04-23 14:44:03 [DEBUG](KafkaProducer                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Kafka producer started
+2020-04-23 14:44:03 [DEBUG](DefaultKafkaProducerFactory   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Created new Producer: CloseSafeProducer [delegate=org.apache.kafka.clients.producer.KafkaProducer@6f635849]
+2020-04-23 14:44:24 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name node--1.bytes-sent
+2020-04-23 14:44:24 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name node--1.bytes-received
+2020-04-23 14:44:24 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name node--1.latency
+2020-04-23 14:44:24 [DEBUG](Selector                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection with /192.168.1.7 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:216)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:531)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:483)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:539)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:335)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:244)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 14:44:24 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Node -1 disconnected.
+2020-04-23 14:44:24 [WARN ](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection to node -1 (/192.168.1.7:9092) could not be established. Broker may not be available.
+2020-04-23 14:44:24 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:44:24 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initialize connection to node 192.168.1.7:9092 (id: -1 rack: null) for sending metadata request
+2020-04-23 14:44:24 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initiating connection to node 192.168.1.7:9092 (id: -1 rack: null) using address /192.168.1.7
+2020-04-23 14:44:45 [DEBUG](Selector                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection with /192.168.1.7 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:216)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:531)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:483)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:539)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:335)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:244)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 14:44:45 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Node -1 disconnected.
+2020-04-23 14:44:45 [WARN ](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection to node -1 (/192.168.1.7:9092) could not be established. Broker may not be available.
+2020-04-23 14:44:45 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:44:45 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:44:45 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initialize connection to node 192.168.1.7:9092 (id: -1 rack: null) for sending metadata request
+2020-04-23 14:44:45 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initiating connection to node 192.168.1.7:9092 (id: -1 rack: null) using address /192.168.1.7
+2020-04-23 14:44:50 [DEBUG](AnnotationConfigServletWebServerApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7164ca4c, started on Thu Apr 23 14:43:19 GMT+08:00 2020
+2020-04-23 14:44:50 [DEBUG](PropertySourcesPropertyResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-04-23 14:44:50 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopping beans in phase 2147483547
+2020-04-23 14:44:50 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry' completed its stop procedure
+2020-04-23 14:44:50 [DEBUG](RedisMessageListenerContainer ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopped RedisMessageListenerContainer
+2020-04-23 14:44:50 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2020-04-23 14:44:50 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans
+2020-04-23 14:44:50 [INFO ](ThreadPoolTaskExecutor        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-23 14:44:50 [INFO ](KafkaProducer                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2020-04-23 14:44:50 [DEBUG](Sender                        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Beginning shutdown of Kafka producer I/O thread, sending remaining records.
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name connections-closed:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name connections-created:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name successful-authentication:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name successful-reauthentication:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name successful-authentication-no-reauth:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name failed-authentication:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name failed-reauthentication:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name reauthentication-latency:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name bytes-sent-received:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name bytes-sent:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name bytes-received:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name select-time:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name io-time:
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name node--1.bytes-sent
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name node--1.bytes-received
+2020-04-23 14:44:50 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name node--1.latency
+2020-04-23 14:44:50 [DEBUG](Sender                        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Shutdown of Kafka producer I/O thread has completed.
+2020-04-23 14:44:50 [DEBUG](KafkaProducer                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Kafka producer has been closed
+2020-04-23 14:44:50 [INFO ](DruidDataSource               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] {dataSource-1} closed
+2020-04-23 14:44:50 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.apache.kafka.common.KafkaException: Producer closed while send in progress
+2020-04-23 14:44:50 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error?userId=1&bookId=1", parameters={masked}
+2020-04-23 14:44:50 [DEBUG](DefaultListableBeanFactory    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating shared instance of singleton bean 'basicErrorController'
+2020-04-23 14:44:50 [DEBUG](DefaultListableBeanFactory    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2020-04-23 14:44:50 [DEBUG](DefaultListableBeanFactory    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-04-23 14:44:50 [DEBUG](DefaultListableBeanFactory    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating shared instance of singleton bean 'errorAttributes'
+2020-04-23 14:44:50 [DEBUG](DefaultListableBeanFactory    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating shared instance of singleton bean 'conventionErrorViewResolver'
+2020-04-23 14:44:50 [DEBUG](DefaultListableBeanFactory    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+2020-04-23 14:44:50 [DEBUG](DefaultListableBeanFactory    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating shared instance of singleton bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2020-04-23 14:44:50 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 14:44:50 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-23 14:44:50 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /error
+2020-04-23 14:44:50 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-23 14:44:50 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 14:44:50 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 14:44:50 GMT+08:00 2020, status=500, error=Internal Server Error, message=Prod (truncated)...]

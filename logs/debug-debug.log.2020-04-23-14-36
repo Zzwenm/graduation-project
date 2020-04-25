@@ -1,0 +1,45 @@
+2020-04-23 14:36:43 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name node--1.bytes-sent
+2020-04-23 14:36:43 [DEBUG](KafkaProducer                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Exception occurred during message send:
+org.apache.kafka.common.errors.TimeoutException: Topic con not present in metadata after 60000 ms.
+2020-04-23 14:36:43 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name node--1.bytes-received
+2020-04-23 14:36:43 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Added sensor with name node--1.latency
+2020-04-23 14:36:43 [DEBUG](Selector                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection with /192.168.1.7 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:216)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:531)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:483)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:539)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:335)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:244)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 14:36:43 [ERROR](LoggingProducerListener       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exception thrown when sending a message with key='null' and payload='null,null,1587623525,pv' to topic con:
+org.apache.kafka.common.errors.TimeoutException: Topic con not present in metadata after 60000 ms.
+2020-04-23 14:36:43 [DEBUG](KafkaTemplate                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to send: ProducerRecord(topic=con, partition=null, headers=RecordHeaders(headers = [], isReadOnly = false), key=null, value=null,null,1587623525,pv, timestamp=null)
+org.apache.kafka.common.errors.TimeoutException: Topic con not present in metadata after 60000 ms.
+2020-04-23 14:36:43 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Node -1 disconnected.
+2020-04-23 14:36:43 [WARN ](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Connection to node -1 (/192.168.1.7:9092) could not be established. Broker may not be available.
+2020-04-23 14:36:43 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:36:43 [ERROR](KafkaServiceImpl              ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] kafka send msg err, ex = org.springframework.kafka.core.KafkaProducerException: Failed to send; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic con not present in metadata after 60000 ms., topic = con, data = null,null,1587623525,pv
+2020-04-23 14:36:43 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 14:36:43 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e939bef] was not registered for synchronization because synchronization is not active
+2020-04-23 14:36:43 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 14:36:43 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@44db030f] will not be managed by Spring
+2020-04-23 14:36:43 [DEBUG](findBookById                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book WHERE id = ? 
+2020-04-23 14:36:43 [DEBUG](findBookById                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: null
+2020-04-23 14:36:43 [DEBUG](findBookById                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 0
+2020-04-23 14:36:43 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e939bef]
+2020-04-23 14:36:43 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Give up sending metadata request since no node is available
+2020-04-23 14:36:43 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initialize connection to node 192.168.1.7:9092 (id: -1 rack: null) for sending metadata request
+2020-04-23 14:36:43 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Initiating connection to node 192.168.1.7:9092 (id: -1 rack: null) using address /192.168.1.7
+2020-04-23 14:36:44 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.ExceptionInInitializerError
+2020-04-23 14:36:44 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-23 14:36:44 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 14:36:44 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-23 14:36:44 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /error
+2020-04-23 14:36:44 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-23 14:36:44 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 14:36:44 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 14:36:44 GMT+08:00 2020, status=500, error=Internal Server Error, message=No m (truncated)...]
+2020-04-23 14:36:44 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500
