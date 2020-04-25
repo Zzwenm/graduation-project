@@ -1,0 +1,16 @@
+2020-04-25 10:48:12 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData?page=1&queyName=", parameters={masked}
+2020-04-25 10:48:12 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData(String, String)
+2020-04-25 10:48:12 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:48:12 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /book/doFetchData
+2020-04-25 10:48:12 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:48:12 [DEBUG](ServletInvocableHandlerMethod ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Could not resolve parameter [1] in public com.example.graduationproject.web.dto.ResultDto com.example.graduationproject.web.controller.BookController.fetchData(java.lang.String,java.lang.String): Required String parameter 'queryName' is not present
+2020-04-25 10:48:12 [WARN ](DefaultHandlerExceptionResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'queryName' is not present]
+2020-04-25 10:48:12 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 400 BAD_REQUEST
+2020-04-25 10:48:12 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error?page=1&queyName=", parameters={masked}
+2020-04-25 10:48:12 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-25 10:48:12 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:48:12 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /error
+2020-04-25 10:48:12 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:48:12 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 10:48:12 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Sat Apr 25 10:48:12 GMT+08:00 2020, status=400, error=Bad Request, message=Required Strin (truncated)...]
+2020-04-25 10:48:12 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 400

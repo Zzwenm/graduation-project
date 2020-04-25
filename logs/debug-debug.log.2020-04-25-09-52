@@ -1,0 +1,32 @@
+2020-04-25 09:52:49 [INFO ](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initializing Servlet 'dispatcherServlet'
+2020-04-25 09:52:49 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Detected StandardServletMultipartResolver
+2020-04-25 09:52:49 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-04-25 09:52:49 [INFO ](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed initialization in 10 ms
+2020-04-25 09:52:50 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb290IiwiaWQiOiIxIiwiZXhwIjoxNTg3NzMwMzU4LCJpYXQiOjE1ODc3MjMxNTgsInVzZXJuYW1lIjoicm9vdCJ9.FrWkziiA55Ox9e-uizXVj_rhTOD1NoNGpnMom9QanAI", parameters={masked}
+2020-04-25 09:52:50 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(HttpServletRequest)
+2020-04-25 09:52:50 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 09:52:50 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /user/doInfo
+2020-04-25 09:52:50 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 09:52:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-04-24T20:12:38Z. Current time: 2020-04-25T09:52:51Z, a difference of 49213561 milliseconds.  Allowed clock skew: 0 milliseconds.
+2020-04-25 09:52:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb290IiwiaWQiOiIxIiwiZXhwIjoxNTg3NzMwMzU4LCJpYXQiOjE1ODc3MjMxNTgsInVzZXJuYW1lIjoicm9vdCJ9.FrWkziiA55Ox9e-uizXVj_rhTOD1NoNGpnMom9QanAI", parameters={masked}
+2020-04-25 09:52:51 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-25 09:52:51 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 09:52:51 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /error
+2020-04-25 09:52:51 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 09:52:51 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 09:52:51 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Sat Apr 25 09:52:51 GMT+08:00 2020, status=500, error=Internal Server Error, message=JWT  (truncated)...]
+2020-04-25 09:52:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500
+2020-04-25 09:52:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb290IiwiaWQiOiIxIiwiZXhwIjoxNTg3NzMwMzU4LCJpYXQiOjE1ODc3MjMxNTgsInVzZXJuYW1lIjoicm9vdCJ9.FrWkziiA55Ox9e-uizXVj_rhTOD1NoNGpnMom9QanAI", parameters={masked}
+2020-04-25 09:52:51 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(HttpServletRequest)
+2020-04-25 09:52:51 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 09:52:51 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /user/doInfo
+2020-04-25 09:52:51 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 09:52:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-04-24T20:12:38Z. Current time: 2020-04-25T09:52:51Z, a difference of 49213700 milliseconds.  Allowed clock skew: 0 milliseconds.
+2020-04-25 09:52:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb290IiwiaWQiOiIxIiwiZXhwIjoxNTg3NzMwMzU4LCJpYXQiOjE1ODc3MjMxNTgsInVzZXJuYW1lIjoicm9vdCJ9.FrWkziiA55Ox9e-uizXVj_rhTOD1NoNGpnMom9QanAI", parameters={masked}
+2020-04-25 09:52:51 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-25 09:52:51 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 09:52:51 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /error
+2020-04-25 09:52:51 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 09:52:51 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 09:52:51 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Sat Apr 25 09:52:51 GMT+08:00 2020, status=500, error=Internal Server Error, message=JWT  (truncated)...]
+2020-04-25 09:52:51 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500

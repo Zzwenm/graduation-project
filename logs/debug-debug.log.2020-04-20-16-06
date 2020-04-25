@@ -1,0 +1,300 @@
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 07:05:00.0
+No1: 商品id = 2333346 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 07:10:00.0
+No1: 商品id = 2333346 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 07:15:00.0
+No1: 商品id = 2333346 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 09:25:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 09:30:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 09:35:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:00 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:00 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=22) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:00 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 09:40:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 09:45:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 09:50:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 09:55:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 10:00:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 10:05:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 10:10:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:00 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 10:15:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 10:20:00.0
+No1: 商品id = 2576651 浏览量 = 1
+========================
+2020-04-20 16:06:01 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:01 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:01 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:01 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=23) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:01 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:01 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:01 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:01 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=24) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:01 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:02 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending asynchronous auto-commit of offsets {con-0=OffsetAndMetadata{offset=18, metadata=''}}
+2020-04-20 16:06:02 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Committed offset 18 for partition con-0
+2020-04-20 16:06:02 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Completed asynchronous auto-commit of offsets {con-0=OffsetAndMetadata{offset=18, metadata=''}}
+2020-04-20 16:06:02 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:02 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:02 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=25) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:02 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:03 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:03 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:03 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=26) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:03 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:03 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:03 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:03 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=27) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:03 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:04 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:04 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:04 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=28) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:04 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:05 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:05 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:05 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=29) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:05 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:05 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:05 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:05 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=30) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:05 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:06 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:06 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:06 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=31) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:06 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:06 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 16:06:06 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from b37a15a5c724bebd8906edfbf7463968.
+2020-04-20 16:06:06 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 16:06:06 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from b37a15a5c724bebd8906edfbf7463968.
+2020-04-20 16:06:06 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 7cbc41a8-4dd3-47ac-b713-5ebfe5238652.
+2020-04-20 16:06:06 [DEBUG](SlotManagerImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received slot report from instance 735bd2f1a88404774022e0070a42333b: SlotReport{slotsStatus=[SlotStatus{slotID=7cbc41a8-4dd3-47ac-b713-5ebfe5238652_0, resourceProfile=ResourceProfile{managedMemory=128.000mb (134217728 bytes), networkMemory=64.000mb (67108864 bytes)}, allocationID=9e48b636efedeae9dbe5493db60d7e76, jobID=c879aa972449a148c28df2a0f64450f3}]}.
+2020-04-20 16:06:06 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 080a3d8b7e05013543330249e85e99ec.
+2020-04-20 16:06:06 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 16:06:06 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from 080a3d8b7e05013543330249e85e99ec.
+2020-04-20 16:06:06 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 7cbc41a8-4dd3-47ac-b713-5ebfe5238652.
+2020-04-20 16:06:06 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:06 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:06 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=32) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:06 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:07 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending asynchronous auto-commit of offsets {con-0=OffsetAndMetadata{offset=18, metadata=''}}
+2020-04-20 16:06:07 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Committed offset 18 for partition con-0
+2020-04-20 16:06:07 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Completed asynchronous auto-commit of offsets {con-0=OffsetAndMetadata{offset=18, metadata=''}}
+2020-04-20 16:06:07 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:07 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:07 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=33) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:07 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:08 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:08 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:08 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=34) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:08 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:08 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:08 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:08 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=35) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:08 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:09 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:09 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:09 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=36) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:09 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:09 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:09 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 18 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:09 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=37) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:09 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:09 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 1 response partition(s)
+2020-04-20 16:06:09 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Fetch READ_UNCOMMITTED at offset 18 for partition con-0 returned fetch data (error=NONE, highWaterMark=20, lastStableOffset = 20, logStartOffset = 0, abortedTransactions = null, recordsSizeInBytes=137)
+2020-04-20 16:06:09 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:09 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=38) for node 0. Added 0 partition(s), altered 1 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:09 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(con-0), toForget=(), implied=()) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:05:00.0
+No1: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:10:00.0
+No1: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:10 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:10 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:10 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=39) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:10 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:15:00.0
+No1: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:20:00.0
+No1: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:25:00.0
+No1: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:30:00.0
+No1: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:35:00.0
+No1: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:40:00.0
+No1: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:45:00.0
+No1: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:10 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:11 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:11 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:11 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=40) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:11 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:50:00.0
+No1: 商品id = 3830808 浏览量 = 1
+No2: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 15:55:00.0
+No1: 商品id = 4365585 浏览量 = 1
+No2: 商品id = 3830808 浏览量 = 1
+========================
+2020-04-20 16:06:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:11 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:11 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:11 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=41) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:11 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:00:00.0
+No1: 商品id = 3830808 浏览量 = 1
+No2: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:05:00.0
+No1: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:11 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:10:00.0
+No1: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:12 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:12 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:12 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=42) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:12 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:15:00.0
+No1: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:20:00.0
+No1: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:25:00.0
+No1: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:12 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending asynchronous auto-commit of offsets {con-0=OffsetAndMetadata{offset=20, metadata=''}}
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:30:00.0
+No1: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:12 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Committed offset 20 for partition con-0
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:12 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Completed asynchronous auto-commit of offsets {con-0=OffsetAndMetadata{offset=20, metadata=''}}
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:35:00.0
+No1: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:40:00.0
+No1: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 时间：2017-11-25 16:45:00.0
+No1: 商品id = 4365585 浏览量 = 1
+========================
+2020-04-20 16:06:12 [INFO ](TopNHotItems                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] org.apache.flink.streaming.api.operators.TimestampedCollector@454e46e9
+2020-04-20 16:06:12 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:12 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:12 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=43) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:12 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:13 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:13 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:13 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=44) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:13 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:14 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:14 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:14 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=45) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:14 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:14 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:14 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:14 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=46) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:14 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:15 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:15 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:15 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=47) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:15 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:15 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:15 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:15 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=48) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:15 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:16 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:16 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:16 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=49) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:16 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:16 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 16:06:16 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 16:06:16 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from b37a15a5c724bebd8906edfbf7463968.
+2020-04-20 16:06:16 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from b37a15a5c724bebd8906edfbf7463968.
+2020-04-20 16:06:16 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 080a3d8b7e05013543330249e85e99ec.
+2020-04-20 16:06:16 [DEBUG](StandaloneResourceManager     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 7cbc41a8-4dd3-47ac-b713-5ebfe5238652.
+2020-04-20 16:06:16 [DEBUG](SlotManagerImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received slot report from instance 735bd2f1a88404774022e0070a42333b: SlotReport{slotsStatus=[SlotStatus{slotID=7cbc41a8-4dd3-47ac-b713-5ebfe5238652_0, resourceProfile=ResourceProfile{managedMemory=128.000mb (134217728 bytes), networkMemory=64.000mb (67108864 bytes)}, allocationID=9e48b636efedeae9dbe5493db60d7e76, jobID=c879aa972449a148c28df2a0f64450f3}]}.
+2020-04-20 16:06:16 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trigger heartbeat request.
+2020-04-20 16:06:16 [DEBUG](TaskExecutor                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat request from 080a3d8b7e05013543330249e85e99ec.
+2020-04-20 16:06:16 [DEBUG](JobMaster                     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Received heartbeat from 7cbc41a8-4dd3-47ac-b713-5ebfe5238652.
+2020-04-20 16:06:17 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:17 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:17 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=50) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:17 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:17 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending asynchronous auto-commit of offsets {con-0=OffsetAndMetadata{offset=20, metadata=''}}
+2020-04-20 16:06:17 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Committed offset 20 for partition con-0
+2020-04-20 16:06:17 [DEBUG](ConsumerCoordinator           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Completed asynchronous auto-commit of offsets {con-0=OffsetAndMetadata{offset=20, metadata=''}}
+2020-04-20 16:06:17 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Node 0 sent an incremental fetch response for session 1613982948 with 0 response partition(s), 1 implied partition(s)
+2020-04-20 16:06:17 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Added READ_UNCOMMITTED fetch request for partition con-0 at offset 20 to node aliyun:9092 (id: 0 rack: null)
+2020-04-20 16:06:17 [DEBUG](FetchSessionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Built incremental fetch (sessionId=1613982948, epoch=51) for node 0. Added 0 partition(s), altered 0 partition(s), removed 0 partition(s) out of 1 partition(s)
+2020-04-20 16:06:17 [DEBUG](Fetcher                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Consumer clientId=consumer-2, groupId=topItem] Sending READ_UNCOMMITTED IncrementalFetchRequest(toSend=(), toForget=(), implied=(con-0)) to broker aliyun:9092 (id: 0 rack: null)

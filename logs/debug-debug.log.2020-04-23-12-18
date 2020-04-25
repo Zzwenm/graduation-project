@@ -1,0 +1,8 @@
+2020-04-23 12:18:17 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] POST "/user/doInfo", parameters={}
+2020-04-23 12:18:17 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(HttpServletRequest)
+2020-04-23 12:18:17 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+2020-04-23 12:18:17 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for POST "/error", parameters={}
+2020-04-23 12:18:17 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 12:18:17 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 12:18:17 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 12:18:17 GMT+08:00 2020, status=500, error=Internal Server Error, message=java (truncated)...]
+2020-04-23 12:18:17 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500

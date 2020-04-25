@@ -1,0 +1,50 @@
+2020-04-21 10:50:10 [INFO ](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initializing Servlet 'dispatcherServlet'
+2020-04-21 10:50:10 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Detected StandardServletMultipartResolver
+2020-04-21 10:50:10 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-04-21 10:50:10 [INFO ](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed initialization in 10 ms
+2020-04-21 10:50:10 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] POST "/user/doLogin", parameters={}
+2020-04-21 10:50:10 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#login(User)
+2020-04-21 10:50:10 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Read "application/json;charset=UTF-8" to [User(id=null, username=root, password=123456)]
+2020-04-21 10:50:11 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-21 10:50:11 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44eb1de5] was not registered for synchronization because synchronization is not active
+2020-04-21 10:50:11 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-21 10:50:11 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@f63fdc] will not be managed by Spring
+2020-04-21 10:50:11 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_user WHERE username = ? 
+2020-04-21 10:50:11 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: root(String)
+2020-04-21 10:50:11 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 1
+2020-04-21 10:50:11 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44eb1de5]
+2020-04-21 10:50:11 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-21 10:50:11 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=登陆成功！, data=User(id=null, username=root, password=123456))]
+2020-04-21 10:50:11 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-21 10:50:11 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo", parameters={}
+2020-04-21 10:50:11 [DEBUG](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-04-21 10:50:11 [DEBUG](ResourceHttpRequestHandler    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resource not found
+2020-04-21 10:50:11 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 404 NOT_FOUND
+2020-04-21 10:50:11 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-21 10:50:11 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-21 10:50:11 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-21 10:50:11 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Tue Apr 21 10:50:11 GMT+08:00 2020, status=404, error=Not Found, message=No message avail (truncated)...]
+2020-04-21 10:50:11 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 404
+2020-04-21 10:50:18 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] POST "/user/doLogin", parameters={}
+2020-04-21 10:50:18 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#login(User)
+2020-04-21 10:50:18 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Read "application/json;charset=UTF-8" to [User(id=null, username=root, password=123456)]
+2020-04-21 10:50:18 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-21 10:50:18 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b017bad] was not registered for synchronization because synchronization is not active
+2020-04-21 10:50:18 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-21 10:50:18 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@f63fdc] will not be managed by Spring
+2020-04-21 10:50:18 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_user WHERE username = ? 
+2020-04-21 10:50:18 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: root(String)
+2020-04-21 10:50:18 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 1
+2020-04-21 10:50:18 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b017bad]
+2020-04-21 10:50:18 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-21 10:50:18 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=登陆成功！, data=User(id=null, username=root, password=123456))]
+2020-04-21 10:50:18 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-21 10:50:18 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo", parameters={}
+2020-04-21 10:50:18 [DEBUG](SimpleUrlHandlerMapping       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-04-21 10:50:18 [DEBUG](ResourceHttpRequestHandler    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resource not found
+2020-04-21 10:50:18 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 404 NOT_FOUND
+2020-04-21 10:50:18 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-21 10:50:18 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-21 10:50:18 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-21 10:50:18 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Tue Apr 21 10:50:18 GMT+08:00 2020, status=404, error=Not Found, message=No message avail (truncated)...]
+2020-04-21 10:50:18 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 404

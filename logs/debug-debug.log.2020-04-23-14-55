@@ -1,0 +1,170 @@
+2020-04-23 14:55:08 [WARN ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Hbase中没有产品【1】推荐记录！
+2020-04-23 14:55:13 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 5081ms
+2020-04-23 14:55:19 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 14:55:19 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=, data=BookVo(books=[Book(id=1, name=Python编程快速上手——让繁琐工作自动化（异步图书）, author= (truncated)...]
+2020-04-23 14:55:19 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 14:55:24 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 53ms
+2020-04-23 14:55:34 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData", parameters={}
+2020-04-23 14:55:34 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData()
+2020-04-23 14:55:34 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-23 14:55:34 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /book/doFetchData
+2020-04-23 14:55:34 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-23 14:55:34 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-23 14:55:34 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 获取书籍信息：
+2020-04-23 14:55:34 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 14:55:34 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20e9d140] was not registered for synchronization because synchronization is not active
+2020-04-23 14:55:34 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 14:55:34 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5819faab] will not be managed by Spring
+2020-04-23 14:55:34 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book 
+2020-04-23 14:55:34 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-23 14:55:34 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2020-04-23 14:55:34 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20e9d140]
+2020-04-23 14:55:34 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:34 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:34 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:34 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:34 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:35 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:35 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Could not close Redis Connection
+org.springframework.data.redis.RedisConnectionFailureException: java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:65)
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:42)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.convertJedisAccessException(JedisConnection.java:135)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.close(JedisConnection.java:301)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doCloseConnection(RedisConnectionUtils.java:294)
+	at org.springframework.data.redis.core.RedisConnectionUtils.releaseConnection(RedisConnectionUtils.java:242)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:238)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
+	at com.example.graduationproject.web.client.RedisClient.getData(RedisClient.java:29)
+	at com.example.graduationproject.web.client.RedisClient.getTopList(RedisClient.java:46)
+	at com.example.graduationproject.web.service.impl.BookServiceImpl.getTopBookIdList(BookServiceImpl.java:133)
+	at com.example.graduationproject.web.service.impl.BookServiceImpl.fetchData(BookServiceImpl.java:65)
+	at com.example.graduationproject.web.controller.BookController.fetchData(BookController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.jedis.util.RedisInputStream.ensureFill(RedisInputStream.java:205)
+	at redis.clients.jedis.util.RedisInputStream.readByte(RedisInputStream.java:43)
+	at redis.clients.jedis.Protocol.process(Protocol.java:155)
+	at redis.clients.jedis.Protocol.read(Protocol.java:220)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:318)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:236)
+	at redis.clients.jedis.BinaryJedis.quit(BinaryJedis.java:257)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.close(JedisConnection.java:291)
+	... 68 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at redis.clients.jedis.util.RedisInputStream.ensureFill(RedisInputStream.java:199)
+	... 75 more
+2020-04-23 14:55:35 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:35 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:35 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:36 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:36 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:36 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:36 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:36 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:36 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:36 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:36 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 14:55:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 14:55:37 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 14:55:37 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f459930] was not registered for synchronization because synchronization is not active
+2020-04-23 14:55:37 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 14:55:37 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5819faab] will not be managed by Spring
+2020-04-23 14:55:37 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book WHERE id IN ( ? , ? ) 
+2020-04-23 14:55:37 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 1(String), 2(String)
+2020-04-23 14:55:37 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2020-04-23 14:55:37 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f459930]
+2020-04-23 14:55:37 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 榜单：
+[Book(id=1, name=Python编程快速上手——让繁琐工作自动化（异步图书）, author=斯维加特(Al Sweigart)，王海鹏, price=￥21.99, src=https://images-cn.ssl-images-amazon.com/images/I/51HZLuA0ABL._SX260_.jpg, remark=如今，人们面临的大多数任务都可以通过编写计算机软件来完成。Python是一种解释型、面向对象、动态数据类型的高级程序设计语言。通过Python编程，我们能够解决现实生活中的很多任务。
+本书是一本面向实践的Python编程实用指南。本书的目的，不仅是介绍Python语言的基础知识，而且还通过项目实践教会读者如何应用这些知识和技能。本书的首部分介绍了基本Python编程概念，第二部分介绍), Book(id=2, name=Python网络爬虫技术, author=江吉彬，张良均, price=￥24.70, src=https://images-cn.ssl-images-amazon.com/images/I/41cfMQfa2RL.jpg, remark=张良均，信息系统项目管理师，泰迪杯全国大学生数据挖掘竞赛（www.tipdm.org）发起人。华南师范大学、广东工业大学兼职教授，广东省工业与应用数学学会理事。兼有大型高科技企业和高校的工作经历，主要从事大数据挖掘及其应用的策划、研发及咨询培训。全国计算机技术与软件专业技术资格（水平）考试继续教育和CDA数据分析师培训讲师。发表数据挖掘相关论文数20余篇，已取得国家发明专利12项，主)]
+2020-04-23 14:55:37 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-23 14:55:37 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 14:55:37 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=查询成功！, data=BookVo(books=[Book(id=1, name=Python编程快速上手——让繁琐工作自动化（异步图书）, au (truncated)...]
+2020-04-23 14:55:37 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 14:55:37 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 50ms
+2020-04-23 14:55:45 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doGetDetail?bookId=1&userId=1", parameters={masked}
+2020-04-23 14:55:45 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#getBookDetail(String, String)
+2020-04-23 14:55:45 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-23 14:55:45 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /book/doGetDetail
+2020-04-23 14:55:45 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-23 14:55:45 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 14:55:45 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@57ad5518] was not registered for synchronization because synchronization is not active
+2020-04-23 14:55:45 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 14:55:45 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5819faab] will not be managed by Spring
+2020-04-23 14:55:45 [DEBUG](findBookById                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book WHERE id = ? 
+2020-04-23 14:55:45 [DEBUG](findBookById                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 1(String)
+2020-04-23 14:55:45 [DEBUG](findBookById                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 1
+2020-04-23 14:55:45 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@57ad5518]
+2020-04-23 14:55:45 [INFO ](KafkaServiceImpl              ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] kafka send msg success, topic = con, data = 1,1,1587624945,pv
+2020-04-23 14:55:45 [WARN ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Hbase中没有产品【1】推荐记录！
+2020-04-23 14:55:45 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 14:55:45 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=, data=BookVo(books=[Book(id=1, name=Python编程快速上手——让繁琐工作自动化（异步图书）, author= (truncated)...]
+2020-04-23 14:55:45 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 14:55:50 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 50ms

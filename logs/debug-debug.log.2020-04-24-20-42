@@ -1,0 +1,5 @@
+2020-04-24 20:42:04 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004b after 56ms
+2020-04-24 20:42:17 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004b after 56ms
+2020-04-24 20:42:30 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004b after 56ms
+2020-04-24 20:42:44 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004b after 63ms
+2020-04-24 20:42:57 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004b after 56ms

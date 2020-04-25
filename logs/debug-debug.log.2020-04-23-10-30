@@ -1,0 +1,115 @@
+2020-04-23 10:30:02 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=undefined", parameters={masked}
+2020-04-23 10:30:02 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(String)
+2020-04-23 10:30:02 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 10:30:02 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=SUCCESS, data={roles=root, name=Super Admin, avatar=https://wpimg.wallstcn (truncated)...]
+2020-04-23 10:30:02 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 10:30:08 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=undefined", parameters={masked}
+2020-04-23 10:30:08 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(String)
+2020-04-23 10:30:08 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 10:30:08 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=SUCCESS, data={roles=root, name=Super Admin, avatar=https://wpimg.wallstcn (truncated)...]
+2020-04-23 10:30:08 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 10:30:08 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData", parameters={}
+2020-04-23 10:30:08 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData()
+2020-04-23 10:30:08 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-23 10:30:08 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 获取书籍信息：
+2020-04-23 10:30:08 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 10:30:08 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63820581] was not registered for synchronization because synchronization is not active
+2020-04-23 10:30:08 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 10:30:08 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4bd4cb3c] will not be managed by Spring
+2020-04-23 10:30:08 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book 
+2020-04-23 10:30:08 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-23 10:30:08 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2020-04-23 10:30:08 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63820581]
+2020-04-23 10:30:08 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 10:30:08 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:08 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:08 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, epid=0x1] write() done
+2020-04-23 10:30:08 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, chid=0x1] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2020-04-23 10:30:08 [DEBUG](CommandEncoder                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:09 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 10:30:09 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out after 500 millisecond(s)
+2020-04-23 10:30:09 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-23 10:30:09 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 10:30:09 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 10:30:09 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 10:30:09 GMT+08:00 2020, status=500, error=Internal Server Error, message=Redi (truncated)...]
+2020-04-23 10:30:09 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500
+2020-04-23 10:30:24 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=undefined", parameters={masked}
+2020-04-23 10:30:24 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(String)
+2020-04-23 10:30:24 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 10:30:24 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=SUCCESS, data={roles=root, name=Super Admin, avatar=https://wpimg.wallstcn (truncated)...]
+2020-04-23 10:30:24 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 10:30:24 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData", parameters={}
+2020-04-23 10:30:24 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData()
+2020-04-23 10:30:24 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-23 10:30:24 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 获取书籍信息：
+2020-04-23 10:30:24 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 10:30:24 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3006b65] was not registered for synchronization because synchronization is not active
+2020-04-23 10:30:24 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 10:30:24 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4bd4cb3c] will not be managed by Spring
+2020-04-23 10:30:24 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book 
+2020-04-23 10:30:24 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-23 10:30:24 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2020-04-23 10:30:24 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3006b65]
+2020-04-23 10:30:24 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 10:30:24 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:24 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:24 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, epid=0x1] write() done
+2020-04-23 10:30:24 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, chid=0x1] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2020-04-23 10:30:24 [DEBUG](CommandEncoder                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:24 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-23 10:30:24 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out after 500 millisecond(s)
+2020-04-23 10:30:24 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-23 10:30:24 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 10:30:24 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 10:30:24 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 10:30:24 GMT+08:00 2020, status=500, error=Internal Server Error, message=Redi (truncated)...]
+2020-04-23 10:30:24 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, chid=0x1] Storing exception in AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, chid=0x1] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, chid=0x1] channelInactive()
+2020-04-23 10:30:28 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, epid=0x1] deactivating endpoint handler
+2020-04-23 10:30:28 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, epid=0x1] notifyQueuedCommands adding 1 command(s) to buffer
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, chid=0x1] channelInactive() done
+2020-04-23 10:30:28 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] channelInactive()
+2020-04-23 10:30:28 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] scheduleReconnect()
+2020-04-23 10:30:28 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] Reconnect attempt 1, delay 1ms
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xae1104d9, /192.168.0.101:58813 -> aliyun/39.105.201.221:6379, chid=0x1] channelUnregistered()
+2020-04-23 10:30:28 [INFO ](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was aliyun/39.105.201.221:6379
+2020-04-23 10:30:28 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress aliyun:6379 using RedisURI [host='aliyun', port=6379]
+2020-04-23 10:30:28 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at aliyun:6379
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, [id: 0x703ec022] (inactive), chid=0x2] channelRegistered()
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, chid=0x2] channelActive()
+2020-04-23 10:30:28 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, epid=0x1] activateEndpointAndExecuteBufferedCommands 1 command(s) buffered
+2020-04-23 10:30:28 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, epid=0x1] activating endpoint
+2020-04-23 10:30:28 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] dispatching command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:28 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, chid=0x2] write(ctx, AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2020-04-23 10:30:28 [DEBUG](CommandEncoder                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379] writing command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:28 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, epid=0x1] write() done
+2020-04-23 10:30:28 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, epid=0x1] flushCommands()
+2020-04-23 10:30:28 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, epid=0x1] flushCommands() Flushing 0 commands
+2020-04-23 10:30:28 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] channelActive()
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, chid=0x2] channelActive() done
+2020-04-23 10:30:28 [INFO ](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnected to aliyun:6379, Channel channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379
+2020-04-23 10:30:28 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@112bef3b)
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, chid=0x2] Received: 5 bytes, 1 commands in the stack
+2020-04-23 10:30:28 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x6c0a5380, /192.168.0.101:59320 -> aliyun/39.105.201.221:6379, chid=0x2] Stack contains: 1 commands
+2020-04-23 10:30:28 [DEBUG](RedisStateMachine             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Decode AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 10:30:28 [DEBUG](RedisStateMachine             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Decoded AsyncCommand [type=AUTH, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true

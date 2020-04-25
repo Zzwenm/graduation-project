@@ -1,0 +1,27 @@
+2020-04-18 14:35:44 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: java.lang.NullPointerException
+2020-04-18 14:35:44 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error?userId=1", parameters={masked}
+2020-04-18 14:35:44 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2020-04-18 14:35:44 [DEBUG](ContentNegotiatingViewResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-04-18 14:35:44 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500
+2020-04-18 14:35:44 [DEBUG](AnnotationConfigServletWebServerApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a62b5bc, started on Sat Apr 18 14:20:06 GMT+08:00 2020
+2020-04-18 14:35:44 [DEBUG](PropertySourcesPropertyResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-04-18 14:35:44 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopping beans in phase 2147483547
+2020-04-18 14:35:44 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry' completed its stop procedure
+2020-04-18 14:35:44 [DEBUG](RedisMessageListenerContainer ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopped RedisMessageListenerContainer
+2020-04-18 14:35:44 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2020-04-18 14:35:44 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans
+2020-04-18 14:35:44 [INFO ](ThreadPoolTaskExecutor        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 14:35:44 [INFO ](DruidDataSource               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] {dataSource-1} closed
+2020-04-18 14:35:44 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-18 14:35:44 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xc8c27e06, /127.0.0.1:53618 -> localhost/127.0.0.1:6379, epid=0x1] closeAsync()
+2020-04-18 14:35:44 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xc8c27e06, /127.0.0.1:53618 -> localhost/127.0.0.1:6379, chid=0x1] channelInactive()
+2020-04-18 14:35:44 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xc8c27e06, /127.0.0.1:53618 -> localhost/127.0.0.1:6379, epid=0x1] deactivating endpoint handler
+2020-04-18 14:35:44 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (100, 100, MILLISECONDS)
+2020-04-18 14:35:44 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xc8c27e06, /127.0.0.1:53618 -> localhost/127.0.0.1:6379, chid=0x1] channelInactive() done
+2020-04-18 14:35:44 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xc8c27e06, /127.0.0.1:53618 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] channelInactive()
+2020-04-18 14:35:44 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xc8c27e06, /127.0.0.1:53618 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect scheduling disabled
+2020-04-18 14:35:44 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xc8c27e06, /127.0.0.1:53618 -> localhost/127.0.0.1:6379, chid=0x1] channelUnregistered()
+2020-04-18 14:35:44 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Release executor io.netty.channel.nio.NioEventLoopGroup@9fe7595
+2020-04-18 14:35:44 [DEBUG](PoolThreadCache               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Freed 23 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2020-04-18 14:35:44 [DEBUG](DefaultClientResources        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (0, 2, SECONDS)
+2020-04-18 14:35:44 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (0, 2, SECONDS)

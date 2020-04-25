@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.graduationproject.web.mapper.ItemDetailMapper">
+    <select id="getItemDetailListByIds" resultType="com.example.graduationproject.web.entity.ItemDetail">
+        SELECT
+            *
+        FROM
+            contact
+        WHERE
+            id
+        IN
+        <foreach collection="idList" index="index" item="item"
+                 open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+</mapper>

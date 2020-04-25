@@ -1,0 +1,25 @@
+2020-04-25 11:39:02 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] POST "/user/doInsert", parameters={}
+2020-04-25 11:39:02 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#insert(User)
+2020-04-25 11:39:02 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 11:39:02 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /user/doInsert
+2020-04-25 11:39:02 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 11:39:02 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Read "application/json;charset=UTF-8" to [User(id=null, username=lisi, password=123456)]
+2020-04-25 11:39:02 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 11:39:02 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ab57c28] was not registered for synchronization because synchronization is not active
+2020-04-25 11:39:02 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 11:39:02 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@51258702] will not be managed by Spring
+2020-04-25 11:39:02 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_user WHERE username = ? 
+2020-04-25 11:39:02 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: lisi(String)
+2020-04-25 11:39:02 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 0
+2020-04-25 11:39:02 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ab57c28]
+2020-04-25 11:39:02 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 11:39:02 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59b279cc] was not registered for synchronization because synchronization is not active
+2020-04-25 11:39:02 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 11:39:02 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@51258702] will not be managed by Spring
+2020-04-25 11:39:02 [DEBUG](insertUser                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: INSERT INTO t_user(username,password) VALUES (?,?) 
+2020-04-25 11:39:02 [DEBUG](insertUser                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: lisi(String), 123456(String)
+2020-04-25 11:39:02 [DEBUG](insertUser                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==    Updates: 1
+2020-04-25 11:39:02 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59b279cc]
+2020-04-25 11:39:02 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 11:39:02 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, message=添加用户成功！, data=User(id=null, username=lisi, password=123456))]
+2020-04-25 11:39:02 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK

@@ -1,0 +1,31 @@
+2020-04-18 10:10:59 [INFO ](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, chid=0x1] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-18 10:10:59 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, chid=0x1] channelInactive()
+2020-04-18 10:10:59 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, epid=0x1] deactivating endpoint handler
+2020-04-18 10:10:59 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, epid=0x1] notifyQueuedCommands adding 0 command(s) to buffer
+2020-04-18 10:10:59 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, chid=0x1] channelInactive() done
+2020-04-18 10:10:59 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] channelInactive()
+2020-04-18 10:10:59 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+2020-04-18 10:10:59 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect attempt 1, delay 1ms
+2020-04-18 10:10:59 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x428d3cec, /127.0.0.1:53952 -> localhost/127.0.0.1:6379, chid=0x1] channelUnregistered()
+2020-04-18 10:10:59 [INFO ](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was localhost/127.0.0.1:6379
+2020-04-18 10:10:59 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-18 10:10:59 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at localhost:6379
+2020-04-18 10:10:59 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x11146965, [id: 0x368f5162] (inactive), chid=0x2] channelRegistered()

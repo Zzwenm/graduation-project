@@ -1,0 +1,244 @@
+2020-04-23 09:08:01 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData", parameters={}
+2020-04-23 09:08:01 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData()
+2020-04-23 09:08:01 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 09:08:01 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f72bee] was not registered for synchronization because synchronization is not active
+2020-04-23 09:08:01 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 09:08:01 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@11f0e7aa] will not be managed by Spring
+2020-04-23 09:08:01 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book 
+2020-04-23 09:08:01 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-23 09:08:01 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 0
+2020-04-23 09:08:01 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f72bee]
+2020-04-23 09:08:01 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 09:08:01 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:01 [INFO ](EpollProvider                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Starting without optional epoll library
+2020-04-23 09:08:01 [INFO ](KqueueProvider                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Starting without optional kqueue library
+2020-04-23 09:08:01 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2020-04-23 09:08:01 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating executor io.netty.channel.nio.NioEventLoopGroup
+2020-04-23 09:08:01 [DEBUG](MultithreadEventLoopGroup     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.eventLoopThreads: 16
+2020-04-23 09:08:01 [DEBUG](NioEventLoop                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.noKeySetOptimization: false
+2020-04-23 09:08:01 [DEBUG](NioEventLoop                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-23 09:08:01 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Adding reference to io.netty.channel.nio.NioEventLoopGroup@2238d35d, existing ref count 0
+2020-04-23 09:08:01 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:01 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379
+2020-04-23 09:08:01 [DEBUG](DefaultChannelId              ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.processId: 20312 (auto-detected)
+2020-04-23 09:08:01 [DEBUG](NetUtil                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Djava.net.preferIPv4Stack: false
+2020-04-23 09:08:01 [DEBUG](NetUtil                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Djava.net.preferIPv6Addresses: false
+2020-04-23 09:08:02 [DEBUG](NetUtil                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-23 09:08:03 [DEBUG](NetUtil                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-23 09:08:04 [DEBUG](DefaultChannelId              ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.machineId: 7c:b0:c2:ff:fe:e9:fe:6c (auto-detected)
+2020-04-23 09:08:04 [DEBUG](ByteBufUtil                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.allocator.type: pooled
+2020-04-23 09:08:04 [DEBUG](ByteBufUtil                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.threadLocalDirectBufferSize: 0
+2020-04-23 09:08:04 [DEBUG](ByteBufUtil                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-23 09:08:04 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=undefined", parameters={masked}
+2020-04-23 09:08:04 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(String)
+2020-04-23 09:08:04 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 09:08:04 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=SUCCESS, data={roles=root, name=Super Admin, avatar=https://wpimg.wallstcn (truncated)...]
+2020-04-23 09:08:04 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 09:08:04 [DEBUG](Recycler                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-04-23 09:08:04 [DEBUG](Recycler                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-04-23 09:08:04 [DEBUG](Recycler                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.recycler.linkCapacity: 16
+2020-04-23 09:08:04 [DEBUG](Recycler                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.recycler.ratio: 8
+2020-04-23 09:08:04 [DEBUG](AbstractByteBuf               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.buffer.checkAccessible: true
+2020-04-23 09:08:04 [DEBUG](AbstractByteBuf               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] -Dio.netty.buffer.checkBounds: true
+2020-04-23 09:08:04 [DEBUG](ResourceLeakDetectorFactory   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@503ee151
+2020-04-23 09:08:04 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData", parameters={}
+2020-04-23 09:08:04 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData()
+2020-04-23 09:08:04 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 09:08:04 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a72d103] was not registered for synchronization because synchronization is not active
+2020-04-23 09:08:04 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 09:08:04 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@11f0e7aa] will not be managed by Spring
+2020-04-23 09:08:04 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book 
+2020-04-23 09:08:04 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-23 09:08:04 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 0
+2020-04-23 09:08:04 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a72d103]
+2020-04-23 09:08:04 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 09:08:04 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xf580b357, [id: 0xee422869] (inactive), chid=0x1] channelRegistered()
+2020-04-23 09:08:06 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379: {}
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 09:08:06 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] close()
+2020-04-23 09:08:06 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-23 09:08:06 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [unknown, epid=0x1] closeAsync()
+2020-04-23 09:08:06 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xf580b357, [id: 0xee422869] (inactive), chid=0x1] channelUnregistered()
+2020-04-23 09:08:06 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:06 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:06 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379
+2020-04-23 09:08:06 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x447fb19f, [id: 0xc0187598] (inactive), chid=0x2] channelRegistered()
+2020-04-23 09:08:06 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+2020-04-23 09:08:06 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-23 09:08:06 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 09:08:06 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 09:08:06 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 09:08:06 GMT+08:00 2020, status=500, error=Internal Server Error, message=Unab (truncated)...]
+2020-04-23 09:08:06 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500
+2020-04-23 09:08:08 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379: {}
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 09:08:08 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] close()
+2020-04-23 09:08:08 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-23 09:08:08 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [unknown, epid=0x2] closeAsync()
+2020-04-23 09:08:08 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x447fb19f, [id: 0xc0187598] (inactive), chid=0x2] channelUnregistered()
+2020-04-23 09:08:08 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+2020-04-23 09:08:08 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-23 09:08:08 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 09:08:08 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 09:08:08 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 09:08:08 GMT+08:00 2020, status=500, error=Internal Server Error, message=Unab (truncated)...]
+2020-04-23 09:08:08 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500
+2020-04-23 09:08:30 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=undefined", parameters={masked}
+2020-04-23 09:08:30 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(String)
+2020-04-23 09:08:30 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 09:08:30 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=SUCCESS, data={roles=root, name=Super Admin, avatar=https://wpimg.wallstcn (truncated)...]
+2020-04-23 09:08:30 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 09:08:30 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData", parameters={}
+2020-04-23 09:08:30 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData()
+2020-04-23 09:08:30 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 09:08:30 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@360bac9b] was not registered for synchronization because synchronization is not active
+2020-04-23 09:08:30 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 09:08:30 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@11f0e7aa] will not be managed by Spring
+2020-04-23 09:08:30 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book 
+2020-04-23 09:08:30 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-23 09:08:30 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 0
+2020-04-23 09:08:30 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@360bac9b]
+2020-04-23 09:08:30 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 09:08:30 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:30 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:30 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379
+2020-04-23 09:08:30 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xd34d273d, [id: 0x8a2b7e2c] (inactive), chid=0x3] channelRegistered()
+2020-04-23 09:08:32 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379: {}
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 09:08:32 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] close()
+2020-04-23 09:08:32 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-23 09:08:32 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [unknown, epid=0x3] closeAsync()
+2020-04-23 09:08:32 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xd34d273d, [id: 0x8a2b7e2c] (inactive), chid=0x3] channelUnregistered()
+2020-04-23 09:08:32 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+2020-04-23 09:08:32 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-23 09:08:32 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 09:08:32 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 09:08:32 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 09:08:32 GMT+08:00 2020, status=500, error=Internal Server Error, message=Unab (truncated)...]
+2020-04-23 09:08:32 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500
+2020-04-23 09:08:38 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=undefined", parameters={masked}
+2020-04-23 09:08:38 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(String)
+2020-04-23 09:08:38 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 09:08:38 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=SUCCESS, data={roles=root, name=Super Admin, avatar=https://wpimg.wallstcn (truncated)...]
+2020-04-23 09:08:38 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 09:08:39 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData", parameters={}
+2020-04-23 09:08:39 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData()
+2020-04-23 09:08:39 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 09:08:39 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2caa75d0] was not registered for synchronization because synchronization is not active
+2020-04-23 09:08:39 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 09:08:39 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@11f0e7aa] will not be managed by Spring
+2020-04-23 09:08:39 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book 
+2020-04-23 09:08:39 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-23 09:08:39 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 0
+2020-04-23 09:08:39 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2caa75d0]
+2020-04-23 09:08:39 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 09:08:39 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:39 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:39 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379
+2020-04-23 09:08:39 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa6a65027, [id: 0x2a4accac] (inactive), chid=0x4] channelRegistered()
+2020-04-23 09:08:41 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379: {}
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 09:08:41 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] close()
+2020-04-23 09:08:41 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-23 09:08:41 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [unknown, epid=0x4] closeAsync()
+2020-04-23 09:08:41 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xa6a65027, [id: 0x2a4accac] (inactive), chid=0x4] channelUnregistered()
+2020-04-23 09:08:41 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+2020-04-23 09:08:41 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-23 09:08:41 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 09:08:41 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 09:08:41 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 09:08:41 GMT+08:00 2020, status=500, error=Internal Server Error, message=Unab (truncated)...]
+2020-04-23 09:08:41 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500
+2020-04-23 09:08:54 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=undefined", parameters={masked}
+2020-04-23 09:08:54 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(String)
+2020-04-23 09:08:54 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 09:08:54 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, msg=SUCCESS, data={roles=root, name=Super Admin, avatar=https://wpimg.wallstcn (truncated)...]
+2020-04-23 09:08:54 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-23 09:08:54 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData", parameters={}
+2020-04-23 09:08:54 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData()
+2020-04-23 09:08:54 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-23 09:08:54 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70c4da42] was not registered for synchronization because synchronization is not active
+2020-04-23 09:08:54 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-23 09:08:54 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@11f0e7aa] will not be managed by Spring
+2020-04-23 09:08:54 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book 
+2020-04-23 09:08:54 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-23 09:08:54 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 0
+2020-04-23 09:08:54 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70c4da42]
+2020-04-23 09:08:54 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-23 09:08:54 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:54 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2020-04-23 09:08:54 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379
+2020-04-23 09:08:54 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x1a19e19e, [id: 0x47d88020] (inactive), chid=0x5] channelRegistered()
+2020-04-23 09:08:56 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Connecting to Redis at localhost:6379: {}
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 09:08:56 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] close()
+2020-04-23 09:08:56 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-23 09:08:56 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [unknown, epid=0x5] closeAsync()
+2020-04-23 09:08:56 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x1a19e19e, [id: 0x47d88020] (inactive), chid=0x5] channelUnregistered()
+2020-04-23 09:08:56 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+2020-04-23 09:08:56 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for GET "/error", parameters={}
+2020-04-23 09:08:56 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-23 09:08:56 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-23 09:08:56 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Thu Apr 23 09:08:56 GMT+08:00 2020, status=500, error=Internal Server Error, message=Unab (truncated)...]
+2020-04-23 09:08:56 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500

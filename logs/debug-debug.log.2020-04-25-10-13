@@ -1,0 +1,247 @@
+2020-04-25 10:13:00 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb290IiwiaWQiOiIxIiwiZXhwIjoxNTg3Nzg2ODQ4LCJpYXQiOjE1ODc3Nzk2NDgsInVzZXJuYW1lIjoicm9vdCJ9.X-2oJeCmHQ8UYbyPo3MKtKNlHrkWqnI3IlOuVLbrzJw", parameters={masked}
+2020-04-25 10:13:00 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(HttpServletRequest)
+2020-04-25 10:13:00 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:00 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /user/doInfo
+2020-04-25 10:13:00 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:00 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 10:13:00 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, message=, data=UserVo(username=root, id=1, token=null))]
+2020-04-25 10:13:00 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-25 10:13:00 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData?page=1", parameters={masked}
+2020-04-25 10:13:00 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData(String)
+2020-04-25 10:13:00 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:00 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /book/doFetchData
+2020-04-25 10:13:00 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:00 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-25 10:13:00 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 获取书籍信息：
+2020-04-25 10:13:00 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 10:13:00 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11c92b95] was not registered for synchronization because synchronization is not active
+2020-04-25 10:13:00 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 10:13:00 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5e2ab5b4] will not be managed by Spring
+2020-04-25 10:13:00 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT count(0) FROM t_book 
+2020-04-25 10:13:00 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-25 10:13:00 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 1
+2020-04-25 10:13:00 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book LIMIT ? 
+2020-04-25 10:13:00 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 10(Integer)
+2020-04-25 10:13:00 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 10
+2020-04-25 10:13:00 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11c92b95]
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:00 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:01 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:01 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:01 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:01 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:01 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:01 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:01 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:01 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 10:13:01 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b845663] was not registered for synchronization because synchronization is not active
+2020-04-25 10:13:01 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 10:13:01 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5e2ab5b4] will not be managed by Spring
+2020-04-25 10:13:01 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book WHERE id IN ( ? , ? ) 
+2020-04-25 10:13:01 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 1253601531308052480(String), 1253601531106725888(String)
+2020-04-25 10:13:01 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2020-04-25 10:13:01 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b845663]
+2020-04-25 10:13:01 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 榜单：
+[Book(id=1253601531106725888, name=Arduino可穿戴设备开发 (数字匠人), author=托尼·奥尔森(Tony Olsson)、 , price=0.00, src=https://images-cn.ssl-images-amazon.com/images/I/81lZatX9CyL._AC_UY218_ML3_.jpg, remark=null), Book(id=1253601531308052480, name=Web攻防之业务安全实战指南, author=陈晓光, 胡兵、 等, price=34.99, src=https://images-cn.ssl-images-amazon.com/images/I/81NifRA7DAL._AC_UY218_ML3_.jpg, remark=null)]
+2020-04-25 10:13:01 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-25 10:13:01 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 10:13:01 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, message=查询成功！, data=RecommendVo(books=[BookVo(id=1253599319089500160, name=Jav (truncated)...]
+2020-04-25 10:13:01 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-25 10:13:05 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004e after 50ms
+2020-04-25 10:13:19 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004e after 50ms
+2020-04-25 10:13:32 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004e after 54ms
+2020-04-25 10:13:37 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/user/doInfo?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb290IiwiaWQiOiIxIiwiZXhwIjoxNTg3Nzg2ODQ4LCJpYXQiOjE1ODc3Nzk2NDgsInVzZXJuYW1lIjoicm9vdCJ9.X-2oJeCmHQ8UYbyPo3MKtKNlHrkWqnI3IlOuVLbrzJw", parameters={masked}
+2020-04-25 10:13:37 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#info(HttpServletRequest)
+2020-04-25 10:13:37 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:37 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /user/doInfo
+2020-04-25 10:13:37 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:37 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 10:13:37 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, message=, data=UserVo(username=root, id=1, token=null))]
+2020-04-25 10:13:37 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-25 10:13:37 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData?page=1", parameters={masked}
+2020-04-25 10:13:37 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData(String)
+2020-04-25 10:13:37 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:37 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /book/doFetchData
+2020-04-25 10:13:37 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:37 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-25 10:13:37 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 获取书籍信息：
+2020-04-25 10:13:37 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 10:13:37 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d9d52ed] was not registered for synchronization because synchronization is not active
+2020-04-25 10:13:37 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 10:13:37 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5e2ab5b4] will not be managed by Spring
+2020-04-25 10:13:37 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT count(0) FROM t_book 
+2020-04-25 10:13:37 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-25 10:13:37 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 1
+2020-04-25 10:13:37 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book LIMIT ? 
+2020-04-25 10:13:37 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 10(Integer)
+2020-04-25 10:13:37 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 10
+2020-04-25 10:13:37 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d9d52ed]
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:37 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:37 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 10:13:37 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ca49a8c] was not registered for synchronization because synchronization is not active
+2020-04-25 10:13:37 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 10:13:37 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5e2ab5b4] will not be managed by Spring
+2020-04-25 10:13:37 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book WHERE id IN ( ? , ? ) 
+2020-04-25 10:13:37 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 1253601531308052480(String), 1253601531106725888(String)
+2020-04-25 10:13:37 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2020-04-25 10:13:37 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ca49a8c]
+2020-04-25 10:13:37 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 榜单：
+[Book(id=1253601531106725888, name=Arduino可穿戴设备开发 (数字匠人), author=托尼·奥尔森(Tony Olsson)、 , price=0.00, src=https://images-cn.ssl-images-amazon.com/images/I/81lZatX9CyL._AC_UY218_ML3_.jpg, remark=null), Book(id=1253601531308052480, name=Web攻防之业务安全实战指南, author=陈晓光, 胡兵、 等, price=34.99, src=https://images-cn.ssl-images-amazon.com/images/I/81NifRA7DAL._AC_UY218_ML3_.jpg, remark=null)]
+2020-04-25 10:13:37 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-25 10:13:37 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 10:13:37 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, message=查询成功！, data=RecommendVo(books=[BookVo(id=1253599319089500160, name=Jav (truncated)...]
+2020-04-25 10:13:37 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-25 10:13:41 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData?page=2", parameters={masked}
+2020-04-25 10:13:41 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData(String)
+2020-04-25 10:13:41 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:41 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /book/doFetchData
+2020-04-25 10:13:41 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:41 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-25 10:13:41 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 获取书籍信息：
+2020-04-25 10:13:41 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 10:13:41 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddee98f] was not registered for synchronization because synchronization is not active
+2020-04-25 10:13:41 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 10:13:41 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5e2ab5b4] will not be managed by Spring
+2020-04-25 10:13:41 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT count(0) FROM t_book 
+2020-04-25 10:13:41 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-25 10:13:41 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 1
+2020-04-25 10:13:41 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book LIMIT ?, ? 
+2020-04-25 10:13:41 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 10(Integer), 10(Integer)
+2020-04-25 10:13:41 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 10
+2020-04-25 10:13:41 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddee98f]
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:41 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:41 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 10:13:41 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44be1ded] was not registered for synchronization because synchronization is not active
+2020-04-25 10:13:41 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 10:13:41 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5e2ab5b4] will not be managed by Spring
+2020-04-25 10:13:41 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book WHERE id IN ( ? , ? ) 
+2020-04-25 10:13:41 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 1253601531308052480(String), 1253601531106725888(String)
+2020-04-25 10:13:41 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2020-04-25 10:13:41 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44be1ded]
+2020-04-25 10:13:41 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 榜单：
+[Book(id=1253601531106725888, name=Arduino可穿戴设备开发 (数字匠人), author=托尼·奥尔森(Tony Olsson)、 , price=0.00, src=https://images-cn.ssl-images-amazon.com/images/I/81lZatX9CyL._AC_UY218_ML3_.jpg, remark=null), Book(id=1253601531308052480, name=Web攻防之业务安全实战指南, author=陈晓光, 胡兵、 等, price=34.99, src=https://images-cn.ssl-images-amazon.com/images/I/81NifRA7DAL._AC_UY218_ML3_.jpg, remark=null)]
+2020-04-25 10:13:41 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-25 10:13:41 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 10:13:41 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, message=查询成功！, data=RecommendVo(books=[BookVo(id=1253599365549805568, name=Go语 (truncated)...]
+2020-04-25 10:13:41 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-25 10:13:43 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doGetDetail?bookId=1253599366061510656&userId=1", parameters={masked}
+2020-04-25 10:13:43 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#getBookDetail(String, String)
+2020-04-25 10:13:43 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:43 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /book/doGetDetail
+2020-04-25 10:13:43 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:43 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 10:13:43 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3bd7f1cc] was not registered for synchronization because synchronization is not active
+2020-04-25 10:13:43 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 10:13:43 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5e2ab5b4] will not be managed by Spring
+2020-04-25 10:13:43 [DEBUG](findBookById                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book WHERE id = ? 
+2020-04-25 10:13:43 [DEBUG](findBookById                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 1253599366061510656(String)
+2020-04-25 10:13:43 [DEBUG](findBookById                  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 1
+2020-04-25 10:13:43 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3bd7f1cc]
+2020-04-25 10:13:43 [WARN ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Hbase中没有产品【1253599366061510656】推荐记录！
+2020-04-25 10:13:43 [INFO ](KafkaServiceImpl              ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] kafka send msg success, topic = book, data = 1,1253599366061510656,pv,1587780823
+2020-04-25 10:13:43 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 10:13:43 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, message=, data=RecommendVo(books=[BookVo(id=1253599366061510656, name=Spark ML (truncated)...]
+2020-04-25 10:13:43 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-25 10:13:45 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] GET "/book/doFetchData?page=1", parameters={masked}
+2020-04-25 10:13:45 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.BookController#fetchData(String)
+2020-04-25 10:13:45 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:45 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /book/doFetchData
+2020-04-25 10:13:45 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 10:13:45 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-25 10:13:45 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 获取书籍信息：
+2020-04-25 10:13:45 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 10:13:45 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f11a8a] was not registered for synchronization because synchronization is not active
+2020-04-25 10:13:45 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 10:13:45 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5e2ab5b4] will not be managed by Spring
+2020-04-25 10:13:45 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT count(0) FROM t_book 
+2020-04-25 10:13:45 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 
+2020-04-25 10:13:45 [DEBUG](queryAll_COUNT                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 1
+2020-04-25 10:13:45 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book LIMIT ? 
+2020-04-25 10:13:45 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 10(Integer)
+2020-04-25 10:13:45 [DEBUG](queryAll                      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 10
+2020-04-25 10:13:45 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f11a8a]
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:45 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004e after 50ms
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:45 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Opening RedisConnection
+2020-04-25 10:13:46 [DEBUG](RedisConnectionUtils          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing Redis Connection.
+2020-04-25 10:13:46 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-25 10:13:46 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35371fdb] was not registered for synchronization because synchronization is not active
+2020-04-25 10:13:46 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-25 10:13:46 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5e2ab5b4] will not be managed by Spring
+2020-04-25 10:13:46 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_book WHERE id IN ( ? , ? ) 
+2020-04-25 10:13:46 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: 1253601531308052480(String), 1253601531106725888(String)
+2020-04-25 10:13:46 [DEBUG](selectByIdList                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 2
+2020-04-25 10:13:46 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35371fdb]
+2020-04-25 10:13:46 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] 榜单：
+[Book(id=1253601531106725888, name=Arduino可穿戴设备开发 (数字匠人), author=托尼·奥尔森(Tony Olsson)、 , price=0.00, src=https://images-cn.ssl-images-amazon.com/images/I/81lZatX9CyL._AC_UY218_ML3_.jpg, remark=null), Book(id=1253601531308052480, name=Web攻防之业务安全实战指南, author=陈晓光, 胡兵、 等, price=34.99, src=https://images-cn.ssl-images-amazon.com/images/I/81NifRA7DAL._AC_UY218_ML3_.jpg, remark=null)]
+2020-04-25 10:13:46 [INFO ](BookServiceImpl               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ============================
+2020-04-25 10:13:46 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-25 10:13:46 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=20000, message=查询成功！, data=RecommendVo(books=[BookVo(id=1253599319089500160, name=Jav (truncated)...]
+2020-04-25 10:13:46 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-25 10:13:59 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004e after 79ms

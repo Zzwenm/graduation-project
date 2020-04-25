@@ -1,0 +1,74 @@
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, chid=0x1] Storing exception in AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, chid=0x1] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, chid=0x1] channelInactive()
+2020-04-23 11:21:09 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, epid=0x1] deactivating endpoint handler
+2020-04-23 11:21:09 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, epid=0x1] notifyQueuedCommands adding 0 command(s) to buffer
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, chid=0x1] channelInactive() done
+2020-04-23 11:21:09 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] channelInactive()
+2020-04-23 11:21:09 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] scheduleReconnect()
+2020-04-23 11:21:09 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] Reconnect attempt 1, delay 1ms
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xe98eef7c, /192.168.0.101:61241 -> aliyun/39.105.201.221:6379, chid=0x1] channelUnregistered()
+2020-04-23 11:21:09 [INFO ](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting, last destination was aliyun/39.105.201.221:6379
+2020-04-23 11:21:09 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Resolved SocketAddress aliyun:6379 using RedisURI [host='aliyun', port=6379]
+2020-04-23 11:21:09 [DEBUG](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnecting to Redis at aliyun:6379
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, [id: 0xc971225f] (inactive), chid=0x2] channelRegistered()
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, chid=0x2] channelActive()
+2020-04-23 11:21:09 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, epid=0x1] activateEndpointAndExecuteBufferedCommands 0 command(s) buffered
+2020-04-23 11:21:09 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, epid=0x1] activating endpoint
+2020-04-23 11:21:09 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] dispatching command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 11:21:09 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, chid=0x2] write(ctx, AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2020-04-23 11:21:09 [DEBUG](CommandEncoder                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379] writing command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 11:21:09 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, epid=0x1] write() done
+2020-04-23 11:21:09 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, epid=0x1] flushCommands()
+2020-04-23 11:21:09 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, epid=0x1] flushCommands() Flushing 0 commands
+2020-04-23 11:21:09 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] channelActive()
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, chid=0x2] channelActive() done
+2020-04-23 11:21:09 [INFO ](ReconnectionHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Reconnected to aliyun:6379, Channel channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379
+2020-04-23 11:21:09 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@602eb17d)
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, chid=0x2] Received: 5 bytes, 1 commands in the stack
+2020-04-23 11:21:09 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, chid=0x2] Stack contains: 1 commands
+2020-04-23 11:21:09 [DEBUG](RedisStateMachine             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Decode AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2020-04-23 11:21:09 [DEBUG](RedisStateMachine             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Decoded AsyncCommand [type=AUTH, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+2020-04-23 11:21:51 [DEBUG](AnnotationConfigServletWebServerApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a220c9a, started on Thu Apr 23 11:16:05 GMT+08:00 2020
+2020-04-23 11:21:51 [DEBUG](PropertySourcesPropertyResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-04-23 11:21:51 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopping beans in phase 2147483547
+2020-04-23 11:21:51 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry' completed its stop procedure
+2020-04-23 11:21:51 [DEBUG](RedisMessageListenerContainer ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopped RedisMessageListenerContainer
+2020-04-23 11:21:51 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2020-04-23 11:21:51 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans
+2020-04-23 11:21:51 [INFO ](ThreadPoolTaskExecutor        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-23 11:21:51 [INFO ](DruidDataSource               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] {dataSource-1} closed
+2020-04-23 11:21:51 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-23 11:21:51 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, epid=0x1] closeAsync()
+2020-04-23 11:21:51 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, chid=0x2] channelInactive()
+2020-04-23 11:21:51 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, epid=0x1] deactivating endpoint handler
+2020-04-23 11:21:51 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, chid=0x2] channelInactive() done
+2020-04-23 11:21:51 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] channelInactive()
+2020-04-23 11:21:51 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, last known addr=aliyun/39.105.201.221:6379] Reconnect scheduling disabled
+2020-04-23 11:21:51 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0xcbe2f3b4, /192.168.0.101:61454 -> aliyun/39.105.201.221:6379, chid=0x2] channelUnregistered()
+2020-04-23 11:21:51 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (100, 100, MILLISECONDS)
+2020-04-23 11:21:51 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Release executor io.netty.channel.nio.NioEventLoopGroup@b1bfbd
+2020-04-23 11:21:51 [DEBUG](PoolThreadCache               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Freed 9 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2020-04-23 11:21:51 [DEBUG](PoolThreadCache               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Freed 3 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-2
+2020-04-23 11:21:51 [DEBUG](DefaultClientResources        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (0, 2, SECONDS)
+2020-04-23 11:21:51 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (0, 2, SECONDS)
+2020-04-23 11:21:52 [DEBUG](JspServlet                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JspServlet.destroy()

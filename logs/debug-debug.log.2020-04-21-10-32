@@ -1,0 +1,24 @@
+2020-04-21 10:32:57 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Creating a new SqlSession
+2020-04-21 10:32:57 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21a08474] was not registered for synchronization because synchronization is not active
+2020-04-21 10:32:57 [DEBUG](DataSourceUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Fetching JDBC Connection from DataSource
+2020-04-21 10:32:57 [DEBUG](SpringManagedTransaction      ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1a1db351] will not be managed by Spring
+2020-04-21 10:32:57 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==>  Preparing: SELECT * FROM t_user WHERE username = ? 
+2020-04-21 10:32:57 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ==> Parameters: null
+2020-04-21 10:32:57 [DEBUG](findUserByUsername            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] <==      Total: 0
+2020-04-21 10:32:57 [DEBUG](SqlSessionUtils               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21a08474]
+2020-04-21 10:32:57 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-21 10:32:57 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [ResultDto(code=40010, msg=用户名或密码错误！, data=User(id=null, username=null, password=null))]
+2020-04-21 10:32:57 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-21 10:32:57 [DEBUG](AnnotationConfigServletWebServerApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f67b837, started on Tue Apr 21 10:31:12 GMT+08:00 2020
+2020-04-21 10:32:57 [DEBUG](PropertySourcesPropertyResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-04-21 10:32:57 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopping beans in phase 2147483547
+2020-04-21 10:32:57 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry' completed its stop procedure
+2020-04-21 10:32:57 [DEBUG](RedisMessageListenerContainer ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopped RedisMessageListenerContainer
+2020-04-21 10:32:57 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2020-04-21 10:32:57 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans
+2020-04-21 10:32:57 [INFO ](ThreadPoolTaskExecutor        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-21 10:32:57 [INFO ](DruidDataSource               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] {dataSource-1} closed
+2020-04-21 10:32:57 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (100, 100, MILLISECONDS)
+2020-04-21 10:32:57 [DEBUG](DefaultClientResources        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (0, 2, SECONDS)
+2020-04-21 10:32:57 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (0, 2, SECONDS)
+2020-04-21 10:32:58 [DEBUG](JspServlet                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JspServlet.destroy()

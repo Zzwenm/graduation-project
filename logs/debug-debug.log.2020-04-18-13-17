@@ -1,0 +1,1 @@
+2020-04-18 13:17:00 [DEBUG](PropertySourcesPropertyResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer

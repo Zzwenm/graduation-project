@@ -1,0 +1,19 @@
+2020-04-23 12:15:49 [DEBUG](AnnotationConfigServletWebServerApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@479460a6, started on Thu Apr 23 12:12:47 GMT+08:00 2020
+2020-04-23 12:15:49 [DEBUG](PropertySourcesPropertyResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-04-23 12:15:49 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopping beans in phase 2147483547
+2020-04-23 12:15:49 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry' completed its stop procedure
+2020-04-23 12:15:49 [DEBUG](RedisMessageListenerContainer ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopped RedisMessageListenerContainer
+2020-04-23 12:15:49 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2020-04-23 12:15:49 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans
+2020-04-23 12:15:49 [INFO ](ThreadPoolTaskExecutor        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-23 12:15:49 [INFO ](DruidDataSource               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] {dataSource-1} closed
+2020-04-23 12:15:50 [DEBUG](JspServlet                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] JspServlet.destroy()
+2020-04-23 12:15:59 [DEBUG](StandardServletEnvironment    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Activating profiles []
+2020-04-23 12:15:59 [DEBUG](logging                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-04-23 12:15:59 [INFO ](Version                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] HV000001: Hibernate Validator 6.0.18.Final
+2020-04-23 12:15:59 [DEBUG](TraversableResolvers          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2020-04-23 12:15:59 [DEBUG](ValidationXmlParser           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-04-23 12:15:59 [DEBUG](ResourceLoaderHelper          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trying to load META-INF/validation.xml via TCCL
+2020-04-23 12:15:59 [DEBUG](ResourceLoaderHelper          ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-04-23 12:15:59 [DEBUG](ValidationXmlParser           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] No META-INF/validation.xml found. Using annotation based configuration only.
+2020-04-23 12:15:59 [DEBUG](OriginTrackedYamlLoader       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Loading from YAML: class path resource [application.yml]

@@ -1,0 +1,19 @@
+2020-04-18 11:43:12 [DEBUG](AnnotationConfigServletWebServerApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@106cc338, started on Sat Apr 18 11:09:03 GMT+08:00 2020
+2020-04-18 11:43:12 [DEBUG](PropertySourcesPropertyResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-04-18 11:43:12 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopping beans in phase 2147483547
+2020-04-18 11:43:12 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry' completed its stop procedure
+2020-04-18 11:43:12 [DEBUG](RedisMessageListenerContainer ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopped RedisMessageListenerContainer
+2020-04-18 11:43:12 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2020-04-18 11:43:12 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans
+2020-04-18 11:43:12 [INFO ](ThreadPoolTaskExecutor        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 11:43:12 [INFO ](DruidDataSource               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] {dataSource-1} closed
+2020-04-18 11:43:12 [DEBUG](RedisChannelHandler           ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] closeAsync()
+2020-04-18 11:43:12 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x266b43d7, /127.0.0.1:55851 -> localhost/127.0.0.1:6379, epid=0x1] closeAsync()
+2020-04-18 11:43:12 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x266b43d7, /127.0.0.1:55851 -> localhost/127.0.0.1:6379, chid=0x1] channelInactive()
+2020-04-18 11:43:12 [DEBUG](DefaultEndpoint               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x266b43d7, /127.0.0.1:55851 -> localhost/127.0.0.1:6379, epid=0x1] deactivating endpoint handler
+2020-04-18 11:43:12 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x266b43d7, /127.0.0.1:55851 -> localhost/127.0.0.1:6379, chid=0x1] channelInactive() done
+2020-04-18 11:43:12 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x266b43d7, /127.0.0.1:55851 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] channelInactive()
+2020-04-18 11:43:12 [DEBUG](ConnectionWatchdog            ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x266b43d7, /127.0.0.1:55851 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Reconnect scheduling disabled
+2020-04-18 11:43:12 [DEBUG](RedisClient                   ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initiate shutdown (100, 100, MILLISECONDS)
+2020-04-18 11:43:12 [DEBUG](CommandHandler                ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [channel=0x266b43d7, /127.0.0.1:55851 -> localhost/127.0.0.1:6379, chid=0x1] channelUnregistered()
+2020-04-18 11:43:12 [DEBUG](DefaultEventLoopGroupProvider ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Release executor io.netty.channel.nio.NioEventLoopGroup@5313681f

@@ -1,0 +1,13 @@
+2020-04-21 10:25:21 [INFO ](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Initializing Servlet 'dispatcherServlet'
+2020-04-21 10:25:21 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Detected StandardServletMultipartResolver
+2020-04-21 10:25:21 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-04-21 10:25:21 [INFO ](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed initialization in 21 ms
+2020-04-21 10:25:21 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] POST "/user/doLogin?username=root&password=123456", parameters={masked}
+2020-04-21 10:25:21 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#login(User)
+2020-04-21 10:25:21 [DEBUG](RequestResponseBodyMethodProcessor) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Read "application/json;charset=UTF-8" to [User(id=null, username=null, password=null)]
+2020-04-21 10:25:21 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Failed to complete request: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.graduationproject.web.mapper.UserMapper.findUserByUsername
+2020-04-21 10:25:21 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] "ERROR" dispatch for POST "/error?username=root&password=123456", parameters={masked}
+2020-04-21 10:25:21 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-04-21 10:25:22 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-04-21 10:25:22 [DEBUG](HttpEntityMethodProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Writing [{timestamp=Tue Apr 21 10:25:21 GMT+08:00 2020, status=500, error=Internal Server Error, message=Inva (truncated)...]
+2020-04-21 10:25:22 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Exiting from "ERROR" dispatch, status 500

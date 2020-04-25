@@ -1,0 +1,6 @@
+2020-04-23 15:49:10 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 75ms
+2020-04-23 15:49:24 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 49ms
+2020-04-23 15:49:37 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 49ms
+2020-04-23 15:49:49 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Sending metadata request MetadataRequestData(topics=[], allowAutoTopicCreation=true, includeClusterAuthorizedOperations=false, includeTopicAuthorizedOperations=false) to node aliyun:9092 (id: 0 rack: null)
+2020-04-23 15:49:49 [DEBUG](NetworkClient                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Using older server API v7 to send METADATA {topics=[],allow_auto_topic_creation=true} with correlation id 34 to node 0
+2020-04-23 15:49:50 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd140035 after 49ms

@@ -1,0 +1,42 @@
+2020-04-25 11:23:02 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004f after 79ms
+2020-04-25 11:23:15 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004f after 57ms
+2020-04-25 11:23:29 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004f after 61ms
+2020-04-25 11:23:31 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] POST "/user/doInsert", parameters={}
+2020-04-25 11:23:31 [DEBUG](RequestMappingHandlerMapping  ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Mapped to com.example.graduationproject.web.controller.UserController#insert(User)
+2020-04-25 11:23:31 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 11:23:31 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] url : /user/doInsert
+2020-04-25 11:23:31 [INFO ](AuthInterceptor               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] ***************************
+2020-04-25 11:23:31 [DEBUG](DispatcherServlet             ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Completed 200 OK
+2020-04-25 11:23:42 [DEBUG](ClientCnxn                    ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Got ping response for sessionid: 0x10003b7cd14004f after 101ms
+2020-04-25 11:23:44 [DEBUG](AnnotationConfigServletWebServerApplicationContext) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@32f232a5, started on Sat Apr 25 10:47:25 GMT+08:00 2020
+2020-04-25 11:23:44 [DEBUG](PropertySourcesPropertyResolver) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-04-25 11:23:44 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopping beans in phase 2147483547
+2020-04-25 11:23:44 [DEBUG](DefaultLifecycleProcessor     ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry' completed its stop procedure
+2020-04-25 11:23:44 [DEBUG](RedisMessageListenerContainer ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Stopped RedisMessageListenerContainer
+2020-04-25 11:23:44 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans on shutdown
+2020-04-25 11:23:44 [DEBUG](AnnotationMBeanExporter       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Unregistering JMX-exposed beans
+2020-04-25 11:23:44 [INFO ](ThreadPoolTaskExecutor        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-25 11:23:44 [INFO ](KafkaProducer                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2020-04-25 11:23:44 [DEBUG](Sender                        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Beginning shutdown of Kafka producer I/O thread, sending remaining records.
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name connections-closed:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name connections-created:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name successful-authentication:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name successful-reauthentication:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name successful-authentication-no-reauth:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name failed-authentication:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name failed-reauthentication:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name reauthentication-latency:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name bytes-sent-received:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name bytes-sent:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name bytes-received:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name select-time:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name io-time:
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name node--1.bytes-sent
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name node--1.bytes-received
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name node--1.latency
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name node-0.bytes-sent
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name node-0.bytes-received
+2020-04-25 11:23:44 [DEBUG](Metrics                       ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] Removed sensor with name node-0.latency
+2020-04-25 11:23:44 [DEBUG](Sender                        ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Shutdown of Kafka producer I/O thread has completed.
+2020-04-25 11:23:44 [DEBUG](KafkaProducer                 ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] [Producer clientId=producer-1] Kafka producer has been closed
+2020-04-25 11:23:44 [INFO ](DruidDataSource               ) [TxId :  , SpanId : ] [ET:,AN:,SN:,CN:,CI:] {dataSource-1} closed
